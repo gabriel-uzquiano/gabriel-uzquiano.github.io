@@ -1,5 +1,7 @@
 # Gabriel Uzquiano
 
+E-mail: uzquiano@usc.edu
+
 ## Courses
 
 ### PHIL 452. Modal Logic
