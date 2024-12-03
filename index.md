@@ -27,11 +27,11 @@ url
 
 PHIL 452. Modal Logic
 
-:	[Spring 2025](https://gabriel-uzquiano.github.io/courses/452)
+:	Spring 2025
 
 PHIL 220g. Introduction to Logic
 
-:	Fall 2024
+:	[Fall 2024](https://gabriel-uzquiano.github.io/courses/220)
 
 :	[USC Logic Web](https://dornsife.usc.edu/usclogicweb/)
 
