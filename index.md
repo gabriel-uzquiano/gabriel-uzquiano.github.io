@@ -1,7 +1,6 @@
 ---
 layout : page
 title : Gabriel Uzquiano
-Permalink :/gabriel.uzquiano.github.io
 ---
 
 
