@@ -1,9 +1,9 @@
 ---
 layout : page
-title : Gabriel Uzquiano
+title : ""
 ---
 
-
+# gabriel uzquiano
 
 address
 
