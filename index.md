@@ -1,3 +1,11 @@
+---
+layout : page
+title : Gabriel Uzquiano
+Permalink :/gabriel.uzquiano.github.io
+---
+
+
+
 # Gabriel Uzquiano
 
 E-mail: uzquiano@usc.edu
