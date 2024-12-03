@@ -5,8 +5,6 @@ title : Gabriel Uzquiano
 
 
 
-# gabriel uzquiano
-
 address
 
 :	School of Philosophy<br/>University of Southern California<br/>Mudd Hall of Philosophy<br/>3709 Trousdale Parkway<br/>Los Angeles CA 90089
