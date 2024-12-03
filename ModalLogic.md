@@ -1,4 +1,0 @@
-# Modal Logic
-
-This will be the official website for PHIL 452.
-
