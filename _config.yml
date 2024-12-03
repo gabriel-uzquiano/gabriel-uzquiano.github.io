@@ -1,3 +1,8 @@
 title: Gabriel Uzquiano
-description: Bookmark this to keep an eye on my courses!
+description: 
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+
+- jekyll-remote-them
 
