@@ -7,29 +7,33 @@ title : Gabriel Uzquiano
 
 # Gabriel Uzquiano
 
-*address*
+address
 
 :	School of Philosophy<br/>University of Southern California<br/>Mudd Hall of Philosophy<br/>3709 Trousdale Parkway<br/>Los Angeles CA 90089
 
-*phone*
+phone
 
 :	 213-740-1074
 
-*e-mail*
+e-mail
 
 : 	uzquiano@usc.edu
 
-**url**
+url
 
 : 	[https://dornsife.usc.edu/profile/gabriel-uzquiano/](https://dornsife.usc.edu/profile/gabriel-uzquiano/)
 
 ## courses
 
-### PHIL 452. Modal Logic
+PHIL 452. Modal Logic
 
-[Here](https://gabriel-uzquiano.github.io/courses/452) you will find materials for PHIL 452. Modal Logic.
+:	[Spring 2025](https://gabriel-uzquiano.github.io/courses/452)
 
-### PHIL 220g. Introduction to Logic
+PHIL 220g. Introduction to Logic
+
+:	Fall 2024
+
+:	[USC Logic Web](https://dornsife.usc.edu/usclogicweb/)
 
 
 
