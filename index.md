@@ -21,7 +21,7 @@ title : Gabriel Uzquiano
 
 **url**
 
-: 	https://dornsife.usc.edu/profile/gabriel-uzquiano/
+: 	[https://dornsife.usc.edu/profile/gabriel-uzquiano/](https://dornsife.usc.edu/profile/gabriel-uzquiano/)
 
 ## courses
 
