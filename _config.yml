@@ -1,7 +1,6 @@
 
 
 title: gabriel uzquiano
-
 markdown: kramdown
 kramdown:
   math_engine: mathjax
