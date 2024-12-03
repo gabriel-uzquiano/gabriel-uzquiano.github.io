@@ -7,19 +7,19 @@ title : Gabriel Uzquiano
 
 # Gabriel Uzquiano
 
-address
+*address*
 
 :	School of Philosophy<br/>University of Southern California<br/>Mudd Hall of Philosophy<br/>3709 Trousdale Parkway<br/>Los Angeles CA 90089
 
-phone
+*phone*
 
 :	 213-740-1074
 
-e-mail
+*e-mail*
 
 : 	uzquiano@usc.edu
 
-url
+**url**
 
 : 	https://dornsife.usc.edu/profile/gabriel-uzquiano/
 
