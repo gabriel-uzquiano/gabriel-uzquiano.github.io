@@ -1,3 +1,11 @@
+---
+layout : page
+title : assignment
+permalink: /courses/assignment
+---
+
+
+
 Consider the formula:
 $$
 \Box (\Box P \to P) \to \Box P
