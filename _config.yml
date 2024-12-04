@@ -1,5 +1,5 @@
 title: "gabriel uzquiano"
-description: "An online portal with links to my course materials."
+description: "An online portal with links to course materials."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabriel-uzquiano.github.io" # the base hostname & protocol for your site
 theme: minima
