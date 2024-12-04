@@ -1,7 +1,5 @@
 ---
-layout : post
-title : assignment
-permalink: /courses/assignment
+
 
 ---
 
