@@ -2,7 +2,7 @@ title: "gabriel uzquiano"
 description: "A simple, static portal outlining my open source offerings."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabriel-uzquiano.github.io" # the base hostname & protocol for your site
-theme: jekyll-theme-slate
+theme: jekyll-theme-minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
