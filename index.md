@@ -3,9 +3,7 @@ layout : page
 title : ""
 ---
 
-# gabriel uzquiano
-
-
+### contact
 
 address
 
@@ -32,6 +30,12 @@ PHIL 452. Modal Logic
 PHIL 220g. Introduction to Logic
 
 :	Fall 2024
+
+
+
+### materials
+
+Online Logic Portal
 
 :	[USC Logic Web](https://dornsife.usc.edu/usclogicweb/)
 
