@@ -23,7 +23,7 @@ url
 
 : 	[https://dornsife.usc.edu/profile/gabriel-uzquiano/](https://dornsife.usc.edu/profile/gabriel-uzquiano/)
 
-## courses
+### courses
 
 PHIL 452. Modal Logic
 
@@ -37,11 +37,11 @@ PHIL 220g. Introduction to Logic
 
 
 
-## articles
+### articles
 
 
 
-## links
+### links
 
 Curriculum Vitae
 
