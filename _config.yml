@@ -7,15 +7,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation links
-# Add navigation links to your site using the `nav` key.
-# For external links add the `external: true` flag.
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Courses"
-    url: "/courses/"
-
 # Build settings
 markdown: kramdown
 kramdown:
