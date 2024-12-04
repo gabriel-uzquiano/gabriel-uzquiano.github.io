@@ -31,7 +31,7 @@ PHIL 452. Modal Logic
 
 PHIL 220g. Introduction to Logic
 
-:	[Fall 2024](https://gabriel-uzquiano.github.io/courses/220)
+:	Fall 2024
 
 :	[USC Logic Web](https://dornsife.usc.edu/usclogicweb/)
 
