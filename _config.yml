@@ -1,6 +1,6 @@
-title: ""
+title: "gabriel uzquiano"
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "index" # the subpath of your site, e.g. /blog
 url: "https://gabriel-uzquiano.github.io" # the base hostname & protocol for your site
 theme: slate
 plugins:
