@@ -5,7 +5,13 @@ title : ""
 
 # gabriel uzquiano
 
+<!-- Navigation Links -->
 
+<nav>
+  {% for link in site.nav %}
+    <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+  {% endfor %}
+</nav>
 
 address
 
