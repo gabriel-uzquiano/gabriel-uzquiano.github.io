@@ -13,14 +13,8 @@ plugins:
 nav:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Blog"
-    url: "/blog/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Contact"
-    url: "/contact/"
+  - title: "Courses"
+    url: "/courses/"
 
 # Build settings
 markdown: kramdown
