@@ -12,8 +12,12 @@
 1. Find a relation $$R$$ on the set of English words $$W$$ with each of the profiles given below:&nbsp;
 
    1. irreflexive, asymmetric, and transitive on $$W$$.
+
    2. reflexive and euclidean on $$W$$.
+
    3. irreflexive, symmetric, and intransitive on $$W$$.&nbsp;
+
+      
 
    Please justify your answers.&nbsp;&nbsp;
 
@@ -26,9 +30,15 @@
 ### propositional logic
 
 1. Call a formula $$\varphi$$ of propositional logic *positive* if, and only if, there are no occurrences of negation $$\neg$$ in $$\varphi$$. Justify each of the following claims:&nbsp;
+
    1. Every positive formula has an odd number of symbols.
+
    2. Every positive formula is satisfiable.&nbsp;
+
+      
+
 2. True or false? If true, please provide an argument. If false, provide a counterexample.
+
    1. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, if $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$, then $$\Gamma \models \varphi \to \psi$$.
    2. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, if $$\Gamma \models \varphi \to \psi$$, then $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$.&nbsp;
 
