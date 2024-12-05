@@ -25,7 +25,7 @@
 
    1. A relation $$R$$ is symmetric and transitive on a set $$A$$ if, and only if, $$R$$ is euclidean on $$A$$.
    2. If a relation $$R$$ is both reflexive and euclidean on a set $$A$$, then $$R$$ is symmetric on $$A$$.
-   3. A relation $$R$$ is an equivalence relation on a set $$A$$ if, and only if, $$R$$ is reflexive and euclidean on $$A$$.&nbsp;
+   3. $$R$$ is an equivalence relation on a set $$A$$ if, and only if, $$R$$ is reflexive and euclidean on $$A$$.&nbsp;
 
 ### propositional logic
 
