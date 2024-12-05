@@ -21,7 +21,7 @@
 
    Please justify your answers.&nbsp;&nbsp;
 
-2. Justify each of the claims given below:
+2. Justify each of the claims given below:&nbsp;
 
    1. A relation $$R$$ is symmetric and transitive on a set $$A$$ if, and only if, $$R$$ is euclidean on $$A$$.
    2. If a relation $$R$$ is both reflexive and euclidean on a set $$A$$, then $$R$$ is symmetric on $$A$$.
@@ -37,7 +37,7 @@
 
       
 
-2. True or false? If true, please provide an argument. If false, provide a counterexample.
+2. True or false? If true, please provide an argument. If false, provide a counterexample.&nbsp;
 
    1. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, if $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$, then $$\Gamma \models \varphi \to \psi$$.
    2. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, if $$\Gamma \models \varphi \to \psi$$, then $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$.&nbsp;
