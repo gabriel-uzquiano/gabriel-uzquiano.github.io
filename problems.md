@@ -39,8 +39,13 @@
 
 2. True or false? If true, please provide an argument. If false, provide a counterexample.&nbsp;
 
-   1. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, if $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$, then $$\Gamma \models \varphi \to \psi$$.
-   2. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, if $$\Gamma \models \varphi \to \psi$$, then $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$.&nbsp;
+   1. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, 
+
+      if $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$, then $$\Gamma \models \varphi \to \psi$$.
+
+   2. Given a set of formulas $$\Gamma$$ and two formulas $$\varphi$$ and $$\psi$$, 
+
+      if $$\Gamma \models \varphi \to \psi$$, then $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$.&nbsp;
 
 
 
