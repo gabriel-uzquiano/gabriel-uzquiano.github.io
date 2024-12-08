@@ -44,13 +44,9 @@ Online Logic Portal
 
 
 
-### articles
-
-
-
 ### links
 
-Curriculum Vitae
+[Curriculum Vitae](https://drive.google.com/file/d/1EfHqkKvZbRtGl61y9EzelDwwkl8Hg2jl/view?usp=sharing)
 
 [Philpapers](https://philpeople.org/profiles/gabriel-uzquiano)
 
