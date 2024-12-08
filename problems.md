@@ -33,7 +33,20 @@
 
    3. $$R$$ is an equivalence relation on a set $$A$$ if, and only if, $$R$$ is reflexive and euclidean on $$A$$.&nbsp;
 
-### propositional logic
+3. True or false? If true, please provide an argument. If false, provide a counterexample.
+
+   1. The empty set $\emptyset$ is a binary relation.
+
+      
+
+   2. If a binary relation $R$ on a set $A$ is reflexive, symmetric, and connected on $A$, then $R$ is euclidean on $A$.
+
+      
+
+   3. If a binary relation $R$ on a set $A$  is euclidean and connected on $A$, then $R$ is either reflexive or symmetric on $A$.&nbsp;
+
+
+### propositional logic: syntax and semantics
 
 1. Call a formula $$\varphi$$ of propositional logic *positive* if, and only if, there are no occurrences of negation $$\neg$$ in $$\varphi$$. Justify each of the following claims:&nbsp;
 
@@ -53,9 +66,24 @@
 
       if $$\Gamma \models \varphi \to \psi$$, then $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$.&nbsp;
 
+3. True or false? If true, please provide an argument. If false, provide a counterexample.
+
+   1. For every natural number $$n > 1$$, there is a set $$\Gamma$$ of exactly $$n$$ formulas such that
+      1. $$\Gamma$$ is unsatisfiable, but
+      2. Every subset $$\Delta \subseteq \Gamma$$ with fewer than $$n$$ formulas is satisfiable.&nbsp;
 
 
-&nbsp;
+### propositional logic: proofs
+
+1. Show that the deductive system we have introduced is *sound*: a formula $$\varphi$$ is provable from a set of formulas $$\Gamma$$ only if $$\varphi$$ is a logical consequence of $$\Gamma$$. That is, if $$\Gamma \vdash \varphi$$, then $$\Gamma \models \varphi$$. &nbsp;
+
+   Hint: Use complete induction  (without a base case) to argue that for every $$n$$, if $$\langle \chi_1, ..., \chi_n\rangle$$ is a derivation of $$\varphi$$ from $$\Gamma$$, then $$\Gamma \models \varphi$$. &nbsp;
+
+2. Show that given a set $$\Gamma$$ and formulas $$\varphi$$ and $$\psi$$, $$\Gamma \vdash \neg \varphi \to (\varphi \to \psi)$$.&nbsp;
+
+3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are inconsistent.&nbsp;
+
+   
 
 &nbsp;
 
