@@ -35,15 +35,15 @@
 
 3. True or false? If true, please provide an argument. If false, provide a counterexample.
 
-   1. The empty set $\emptyset$ is a binary relation.
+   1. The empty set $$\emptyset$$ is a binary relation.
 
       
 
-   2. If a binary relation $R$ on a set $A$ is reflexive, symmetric, and connected on $A$, then $R$ is euclidean on $A$.
+   2. If a binary relation $$R$$ on a set $$A$$ is reflexive, symmetric, and connected on $$A$$, then $$R$$ is euclidean on $$A$$.
 
       
 
-   3. If a binary relation $R$ on a set $A$  is euclidean and connected on $A$, then $R$ is either reflexive or symmetric on $A$.&nbsp;
+   3. If a binary relation $$R$$ on a set $$A$$  is euclidean and connected on $$A$$, then $$R$$ is either reflexive or symmetric on $$A$$.&nbsp;
 
 
 ### propositional logic: syntax and semantics
@@ -66,12 +66,13 @@
 
       if $$\Gamma \models \varphi \to \psi$$, then $$\Gamma \not \models \varphi$$ or $$\Gamma \models \psi$$.&nbsp;
 
-3. True or false? If true, please provide an argument. If false, provide a counterexample.
+3. Show that for every natural number $$n > 1$$, there is a set $$\Gamma$$ of exactly $$n$$ formulas such that&nbsp;
 
-   1. For every natural number $$n > 1$$, there is a set $$\Gamma$$ of exactly $$n$$ formulas such that
-      1. $$\Gamma$$ is unsatisfiable, but
-      2. Every subset $$\Delta \subseteq \Gamma$$ with fewer than $$n$$ formulas is satisfiable.&nbsp;
+   1. $$\Gamma$$ is unsatisfiable, but
 
+      
+
+   2. Every subset $$\Delta \subseteq \Gamma$$ with fewer than $$n$$ formulas is satisfiable.&nbsp;
 
 ### propositional logic: proofs
 
