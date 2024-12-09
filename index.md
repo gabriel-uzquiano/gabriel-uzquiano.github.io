@@ -15,7 +15,7 @@ phone
 
 e-mail
 
-: 	[uzquiano@usc.edu](uzquiano@usc.edu)
+: 	[uzquiano@usc.edu](mailto:uzquiano@usc.edu)
 
 url
 
