@@ -80,7 +80,7 @@
 
    
    $$
-   \Gamma \vdash \varphi \ \text{only if} \ \Gamma \models \varphi
+   \Gamma \vdash \varphi \ \text{only if} \ \Gamma \models \varphi.
    $$
    &nbsp;
 
@@ -94,13 +94,13 @@
    $$
    &nbsp;
 
-3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are inconsistent.<br/>Hint: Please feel free to make sue of the Deduction Theorem and whatever lemmas you may find helpful from lecture.&nbsp;
+3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are.<br/>Hint: Please feel free to make sue of the Deduction Theorem and whatever lemmas you may find helpful from lecture.&nbsp;
 
 4. Consider the axiomatic system that results from our axiom system when $$A3$$ is replaced with the axiom:&nbsp;
    $$
    (\neg p \to \neg q) \to (q \to p) \tag{A3'}
    $$
-   &nbsp;
+   
 
    We write $$\Gamma \vdash' \varphi$$ to indicate that $$\varphi$$ is derivable from $$\Gamma$$ in the new system. Justify the equivalence between the two axiom systems. That is, prove that no matter what $$\Gamma$$ and $$\varphi$$ may be,
 
