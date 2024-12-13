@@ -44,6 +44,8 @@
       
 
    3. If a binary relation $$R$$ on a set $$A$$  is euclidean and connected on $$A$$, then $$R$$ is either reflexive or symmetric on $$A$$.&nbsp;
+   
+4. 
 
 
 ### propositional logic: syntax and semantics
@@ -74,7 +76,7 @@
 
    2. Every subset $$\Delta \subseteq \Gamma$$ with fewer than $$n$$ formulas is satisfiable.&nbsp;
 
-### propositional logic: proofs
+### propositional logic: axiomatic derivations
 
 1. Show that the deductive system we have introduced is *sound*: a formula $$\varphi$$ is provable from a set of formulas $$\Gamma$$ only if $$\varphi$$ is a logical consequence of $$\Gamma$$. That is, if $$\Gamma \vdash \varphi$$, then $$\Gamma \models \varphi$$. &nbsp;
 
@@ -82,11 +84,21 @@
 
 2. Show that given a set $$\Gamma$$ and formulas $$\varphi$$ and $$\psi$$, $$\Gamma \vdash \neg \varphi \to (\varphi \to \psi)$$.&nbsp;
 
-3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are inconsistent.&nbsp;
+3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are inconsistent.<br/>Hint: Please feel free to make sue of the Deduction Theorem and whatever lemmas you may find helpful from lecture.&nbsp;
 
-   
+4. Consider the axiomatic system that results from our axiom system when $$A3$$ is replaced with the axiom:
+   $$
+   (\neg p \to \neg q) \to (q \to p) \tag{A3'}
+   $$
+   We write $$\Gamma \vdash' \varphi$$ to indicate that $$\varphi$$ is derivable from $$\Gamma$$ in the new system. Justify the equivalence between the two axiom systems. That is, prove that no matter what $$\Gamma$$ and $$\varphi$$ may be,
+   $$
+   \Gamma \vdash \varphi \ \text{iff} \ \Gamma \vdash' \varphi.
+   $$
+   Hint: Please note that the argument for the Deduction Theorem carries over to the new system without incident. Further hints available upon request.
 
-&nbsp;
+
+
+### modal propositional logic&nbsp;
 
 &nbsp;
 
