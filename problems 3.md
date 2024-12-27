@@ -34,9 +34,9 @@
    (\neg p \to \neg q) \to (q \to p) \tag{$\textsf{A3}'$}
    $$
    
-
    We write $$\Gamma \vdash' \varphi$$ to indicate that $$\varphi$$ is derivable from $$\Gamma$$ in the new system. Justify the equivalence between the two axiom systems. That is, prove that no matter what $$\Gamma$$ and $$\varphi$$ may be,
-
+   
+   
    
    $$
    \Gamma \vdash \varphi \ \text{iff} \ \Gamma \vdash' \varphi.
