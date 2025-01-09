@@ -2,9 +2,7 @@ title: "gabriel uzquiano"
 description: "An online portal with links to course materials."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabriel-uzquiano.github.io" # the base hostname & protocol for your site
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
