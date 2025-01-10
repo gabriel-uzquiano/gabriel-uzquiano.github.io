@@ -35,7 +35,7 @@
 
 3. True or false? If true, please provide an argument. If false, provide a counterexample.
 
-   1. The empty set $$\emptyset$$ is a binary relation.
+   1. The empty set $$\emptyset$$ is a binary relation on any set $A$.
 
       
 
