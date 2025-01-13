@@ -17,11 +17,20 @@
 
    3. irreflexive, symmetric, and intransitive on $$W$$.&nbsp;
 
-      
 
    Please justify your answers.&nbsp;&nbsp;
 
-2. Justify each of the claims given below:&nbsp;
+2. Draw a diagram for a finite relation $$R$$ on a set $$W$$ with each of the profiles given below:
+
+   1. reflexive, symmetric, and non-transitive on $$W$$.
+
+   2. reflexive, symmetric, and *intransitive* on $$W$$.
+
+   3. euclidean, connected, and non-reflexive on $$W$$.
+
+   Please justify your answers.&nbsp;
+
+3. Justify each of the claims given below:&nbsp;
 
    1. A relation $$R$$ is symmetric and transitive on a set $$A$$ if, and only if, $$R$$ is euclidean on $$A$$.
 
@@ -33,7 +42,7 @@
 
    3. $$R$$ is an equivalence relation on a set $$A$$ if, and only if, $$R$$ is reflexive and euclidean on $$A$$.&nbsp;
 
-3. True or false? If true, please provide an argument. If false, provide a counterexample.
+4. True or false? If true, please provide an argument. If false, provide a counterexample.
 
    1. The empty set $$\emptyset$$ is a binary relation on any set $$A$$.
 
