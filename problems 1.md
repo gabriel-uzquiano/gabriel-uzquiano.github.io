@@ -26,7 +26,7 @@
 
    2. non-reflexive, symmetric, and intransitive on $$W$$.
 
-   3. irreflexive, symmetric, and transitive
+   3. irreflexive, symmetric, and transitive on $$W$$.
 
    4. euclidean, connected, and non-reflexive on $$W$$.
 
