@@ -24,9 +24,11 @@
 
    1. reflexive, symmetric, and non-transitive on $$W$$.
 
-   2. reflexive, symmetric, and *intransitive* on $$W$$.
+   2. non-reflexive, symmetric, and intransitive on $$W$$.
 
-   3. euclidean, connected, and non-reflexive on $$W$$.
+   3. irreflexive, symmetric, and transitive
+
+   4. euclidean, connected, and non-reflexive on $$W$$.
 
    Please justify your answers.&nbsp;
 
