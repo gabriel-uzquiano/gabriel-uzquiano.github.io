@@ -34,7 +34,7 @@
 
 3. Justify each of the claims given below:&nbsp;
 
-   1. A *symmetric* relation $$R$$ is transitive on a set $$A$$ if, and only if, $$R$$ is euclidean on $$A$$.
+   1. A *symmetric* relation $$R$$ on a set $$A$$ is transitive on $$A$$ if, and only if, $$R$$ is euclidean on $$A$$.
 
       
 
