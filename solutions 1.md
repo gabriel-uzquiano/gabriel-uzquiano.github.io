@@ -55,7 +55,7 @@
 
       $$(\Leftarrow)$$ Suppose a *symmetric* relation $$R$$ on a set $$A$$ is euclidean on $$A$$. We want to show that $$R$$ is transitive on $$A$$. That is, we argue that
 
-      - for every $$x, y, z \in A$$, if $$Rxy$$ and $$Ryz$$, then $$Rxz$$.&nbsp;
+      for every $$x, y, z \in A$$, if $$Rxy$$ and $$Ryz$$, then $$Rxz$$.&nbsp;
 
       Let $$x, y, z$$ be arbitrary members of $$A$$. Assume that $$Rxy$$ and $$Ryz$$. By symmetry of $$R$$ on $$A$$, $$Ryx$$. So, since $$Ryx$$ and $$Ryz$$ and $$R$$ is euclidean on $$A$$, we have $$Ryz$$, which is what we wanted.
 
