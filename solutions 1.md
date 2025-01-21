@@ -57,7 +57,7 @@
 
       for every $$x, y, z \in A$$, if $$Rxy$$ and $$Ryz$$, then $$Rxz$$.&nbsp;
 
-      Let $$x, y, z$$ be arbitrary members of $$A$$. Assume that $$Rxy$$ and $$Ryz$$. By symmetry of $$R$$ on $$A$$, $$Ryx$$. So, since $$Ryx$$ and $$Ryz$$ and $$R$$ is euclidean on $$A$$, we have $$Ryz$$, which is what we wanted.
+      Let $$x, y, z$$ be arbitrary members of $$A$$. Assume that $$Rxy$$ and $$Ryz$$. By symmetry of $$R$$ on $$A$$, $$Ryx$$. So, since $$Ryx$$ and $$Ryz$$ and $$R$$ is euclidean on $$A$$, we have $$Rxz$$, which is what we wanted.
 
    2. If a relation $$R$$ is both reflexive and euclidean on a set $$A$$, then $$R$$ is symmetric on $$A$$.
 
