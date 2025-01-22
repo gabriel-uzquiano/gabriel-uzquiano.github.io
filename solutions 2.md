@@ -26,6 +26,8 @@
       $$
       \varphi^+ ::= AT \ | \ (\varphi^+ \to \psi^+)
       $$
+      <br/>
+
       That is:
 
       All atoms are *positive formulas*
