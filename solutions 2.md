@@ -20,7 +20,9 @@
 
       *if $$\varphi$$ is positive, then $$\varphi$$ has an odd number of symbols*.
 
-      Alternatively, one can rely on a recursive definition of *positive* formula as follows:
+      Alternatively, one can rely on a recursive definition of *positive* formula as follows:<br/>
+
+      
       $$
       \varphi^+ ::= AT \ | \ (\varphi^+ \to \psi^+)
       $$
