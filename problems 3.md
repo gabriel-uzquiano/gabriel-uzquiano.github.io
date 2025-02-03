@@ -25,8 +25,9 @@
    
 
    $$
-   \Gamma \vdash \neg \varphi \to (\varphi \to \psi)
+   \Gamma \vdash (\varphi \to \neg \varphi) \to \neg \varphi
    $$
+   
 
 3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$​ are.<br/>
 
