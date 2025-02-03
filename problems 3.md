@@ -17,7 +17,7 @@
    $$
    &nbsp;
 
-   Hint: Use complete induction  (without a base case) to argue that for every positive integer $$n$$, if $$\langle \chi_1, ..., \chi_n\rangle$$ is a derivation of $$\varphi$$ from $$\Gamma$$, then $$\Gamma \models \varphi$$. &nbsp;
+   *Hint: Use complete induction  (without a base case) to argue that for every positive integer $$n$$, if $$\langle \chi_1, ..., \chi_n\rangle$$ is a derivation of $$\varphi$$ from $$\Gamma$$, then $$\Gamma \models \varphi$$.*&nbsp;
 
 2. Show that given a set $$\Gamma$$ and formulas $$\varphi$$ and $$\psi$$, 
 
@@ -27,23 +27,23 @@
    $$
    &nbsp;
 
-3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are.<br/>Hint: Please feel free to make use of the Deduction Theorem and whatever propositions you may find helpful from the notes.&nbsp;
+3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are.<br/>*Hint: Please feel free to make use of the Deduction Theorem and whatever propositions you may find helpful from the notes.*&nbsp;
 
 4. Consider the axiomatic system that results from our axiom system when $$\textsf{A3}$$ is replaced with the axiom:&nbsp;
    $$
-   (\neg p \to \neg q) \to (q \to p) \tag{$\textsf{A3}'$}
+   (\neg p \to \neg q) \to (q \to p) \tag{$\textsf{A3}^\ast$}
    $$
    
-   We write $$\Gamma \vdash' \varphi$$ to indicate that $$\varphi$$ is derivable from $$\Gamma$$ in the new system. Justify the equivalence between the two axiom systems. That is, prove that no matter what $$\Gamma$$ and $$\varphi$$ may be,
+   We write $$\Gamma \vdash^\ast \varphi$$ to indicate that $$\varphi$$ is derivable from $$\Gamma$$ in the new system. Justify the equivalence between the two axiom systems. That is, prove that no matter what $$\Gamma$$ and $$\varphi$$ may be,&nbsp;
    
    
    
    $$
-   \Gamma \vdash \varphi \ \text{iff} \ \Gamma \vdash' \varphi.
+   \Gamma \vdash \varphi \ \text{iff} \ \Gamma \vdash^\ast \varphi.
    $$
-   &nbsp;
+   
 
-   Hint: Please note that the argument for the Deduction Theorem carries over to the new system without incident. Further hints available upon request.
+   *Hint: Please note that the argument for the Deduction Theorem carries over to the new system without incident. Further hints available upon request.*
 
 
 
