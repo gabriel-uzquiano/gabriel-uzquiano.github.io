@@ -9,7 +9,7 @@
 
 ### propositional logic: axiomatic derivations
 
-1. Show that the deductive system we have introduced is *sound*: aformula $$\varphi$$ is provable from a set of formulas $$\Gamma$$ only if $$\varphi$$ is a logical consequence of $$\Gamma$$. That is, &nbsp;
+1. Show that the deductive system we have introduced is *sound*: a formula $$\varphi$$ is provable from a set of formulas $$\Gamma$$ only if $$\varphi$$ is a logical consequence of $$\Gamma$$. That is, &nbsp;
 
    
    $$
@@ -17,7 +17,7 @@
    $$
    &nbsp;
 
-   Hint: Use complete induction  (without a base case) to argue that for every $$n$$, if $$\langle \chi_1, ..., \chi_n\rangle$$ is a derivation of $$\varphi$$ from $$\Gamma$$, then $$\Gamma \models \varphi$$. &nbsp;
+   Hint: Use complete induction  (without a base case) to argue that for every positive integer $$n$$, if $$\langle \chi_1, ..., \chi_n\rangle$$ is a derivation of $$\varphi$$ from $$\Gamma$$, then $$\Gamma \models \varphi$$. &nbsp;
 
 2. Show that given a set $$\Gamma$$ and formulas $$\varphi$$ and $$\psi$$, 
 
