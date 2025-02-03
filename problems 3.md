@@ -16,7 +16,7 @@
    $$
    \Gamma \vdash \varphi \ \text{only if} \ \Gamma \models \varphi.
    $$
-   &nbsp;
+   
 
    *Hint: Use complete induction  (without a base case) to argue that for every positive integer $$n$$, if $$\langle \chi_1, ..., \chi_n\rangle$$ is a derivation of $$\varphi$$ from $$\Gamma$$, then $$\Gamma \models \varphi$$.*&nbsp;
 
@@ -27,7 +27,7 @@
    $$
    \Gamma \vdash \neg \varphi \to (\varphi \to \psi)
    $$
-   &nbsp;
+   
 
 3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$​ are.<br/>&nbsp;
 
