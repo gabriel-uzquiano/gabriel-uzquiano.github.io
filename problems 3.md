@@ -29,7 +29,7 @@
    $$
    &nbsp;
 
-3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are.<br/>
+3. Show that given a set $$\Gamma$$ and a formula $$\varphi$$, $$\Gamma$$ is inconsistent if both $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$​ are.<br/>&nbsp;
 
    *Hint: Please feel free to make use of the Deduction Theorem and whatever propositions you may find helpful from the notes.*&nbsp;
 
