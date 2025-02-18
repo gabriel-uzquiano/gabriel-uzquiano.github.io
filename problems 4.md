@@ -43,7 +43,10 @@
    $$
    Justify the claims below:
 
-   1. The rule above preserves validity with respect to the class of *all* frames.<br/>
+   1. The rule above preserves validity with respect to the class of *all* frames.
+   
+      
+   
    2. The rule above does *not* preseve validity with respect to the class of all *reflexive* frames.
 
 
