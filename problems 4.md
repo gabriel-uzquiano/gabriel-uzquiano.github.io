@@ -23,7 +23,7 @@
 
       
 
-2. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$u, v, w \in W$$, if $$uRw$$ and $$vRw$$, then $$u = v$$. 
+2. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
 
    Justify the claims below:
 
