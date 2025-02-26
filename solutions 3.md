@@ -139,9 +139,13 @@ $$
    \vdash^\ast (\neg \varphi \to \varphi) \to \varphi
    $$
    In the meantime, here is a helpful lemma, whose justification is completely parallel to that of $$\textsf{Prop 3.6}$$:
+   
+   
    $$
    \vdash^\ast \varphi \to ( \neg \varphi \to \bot) \tag{i}
    $$
+   
+   
    
    From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we know $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. By the Deduction Theorem for the new system, $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$  and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$. 
    
@@ -152,16 +156,24 @@ $$
    $$
    \vdash^\ast (\neg \varphi \to \varphi) \to \varphi \tag{ii}
    $$
-   Note that $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \varphi$$ and $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \neg \varphi$$. Given (i) above, we have $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$.  Therefore, $$\{ \neg \varphi \to \varphi, \neg \varphi\} \vdash^\ast \bot$$ and $\{\neg \varphi \to \varphi\} \vdash^\ast \neg \varphi \to \bot$. Given $$\textsf{A3}^\ast[\varphi/p, \top/q]$$, we have
+   
+   
+   Note that $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \varphi$$ and $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \neg \varphi$$. Given (i) above, we have $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$.  Therefore, $$\{ \neg \varphi \to \varphi, \neg \varphi\} \vdash^\ast \bot$$ and $$\{\neg \varphi \to \varphi\} \vdash^\ast \neg \varphi \to \bot$$. Given $$\textsf{A3}^\ast[\varphi/p, \top/q]$$, we have
+   
+   
    $$
    \vdash^\ast (\neg \varphi \to \bot) \to (\top \to \varphi).
    $$
+   
+   
     Recall that $$\bot := \neg \top$$. So, $$\{\neg \varphi \to \varphi\} \vdash^\ast \top \to \varphi$$. But since $$\vdash^\ast \top$$, we conclude $$\{\neg \varphi \to \varphi\} \vdash^\ast \varphi$$. By the Deduction Theorem for the new system we infer that $$\vdash^\ast (\neg \varphi \to \varphi) \to \varphi$$.
    
    We conclude:
    $$
    \{\neg \varphi \to \neg \psi, \neg \varphi \to \psi\} \vdash^\ast \varphi
    $$
+   
+   
    We need only use two instances of the Deduction Theorem:<br/>
    
    
