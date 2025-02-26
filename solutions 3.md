@@ -152,9 +152,11 @@ $$
    $$
    \vdash^\ast (\neg \varphi \to \varphi) \to \varphi \tag{ii}
    $$
-   Note that $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \varphi$$ and $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \neg \varphi$$. Given (i) above, we have $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$.  Therefore, $$\{ \neg \varphi \to \varphi, \neg \varphi\} \vdash^\ast \bot$$. Given $$\textsf{A3}^\ast[\varphi/p, \top/q]$$, $$\{\neg \varphi \to \bot \} \vdash^\ast \top \to \varphi$$. Recall that $$\bot := \neg \top$$. But since $$\vdash^\ast \top$$, we conclude $$\{\neg \varphi \to \varphi\} \vdash^\ast \varphi$$. By the Deduction Theorem for the new system we infer that $$\vdash^\ast (\neg \varphi \to \varphi) \to \varphi$$.
-   
-   
+   Note that $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \varphi$$ and $$\{\neg \varphi \to \varphi, \neg \varphi\}\vdash^\ast \neg \varphi$$. Given (i) above, we have $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$.  Therefore, $$\{ \neg \varphi \to \varphi, \neg \varphi\} \vdash^\ast \bot$$ and $\{\neg \varphi \to \varphi\} \vdash^\ast \neg \varphi \to \bot$. Given $$\textsf{A3}^\ast[\varphi/p, \top/q]$$, we have
+   $$
+   \vdash^\ast (\neg \varphi \to \bot) \to (\top \to \varphi).
+   $$
+    Recall that $$\bot := \neg \top$$. So, $$\{\neg \varphi \to \varphi\} \vdash^\ast \top \to \varphi$$. But since $$\vdash^\ast \top$$, we conclude $$\{\neg \varphi \to \varphi\} \vdash^\ast \varphi$$. By the Deduction Theorem for the new system we infer that $$\vdash^\ast (\neg \varphi \to \varphi) \to \varphi$$.
    
    We conclude:
    $$
