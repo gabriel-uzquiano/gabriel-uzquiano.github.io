@@ -138,12 +138,12 @@ $$
    $$
    \vdash^\ast (\neg \varphi \to \varphi) \to \varphi
    $$
-   In the meantime, here is a helpful lemma, whose justification is parallel to that of $$\textsf{Prop 3.6}$$:
+   In the meantime, here is a helpful lemma, whose justification is completely parallel to that of $$\textsf{Prop 3.6}$$:
    $$
    \vdash^\ast \varphi \to ( \neg \varphi \to \bot) \tag{i}
    $$
    
-   From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we know $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. By the Deduction Theorem for the new system, $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$  and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$. The justification of this fact is completely parallel to that of 
+   From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we know $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. By the Deduction Theorem for the new system, $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$  and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$. 
    
    
    
@@ -160,7 +160,9 @@ $$
    $$
    \{\neg \varphi \to \neg \psi, \neg \varphi \to \psi\} \vdash^\ast \varphi
    $$
-   We need only use two instances of the Deduction Theorem:
+   We need only use two instances of the Deduction Theorem:<br/>
+   
+   
    $$
    \begin{array}{llll} 
    \{\neg \varphi \to \neg \psi \} & \vdash^\ast & (\neg \varphi \to \psi) \to \varphi & \\
