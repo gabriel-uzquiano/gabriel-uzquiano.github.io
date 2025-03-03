@@ -20,18 +20,19 @@
    
 
    Consider the map $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:
-
-   - $$\sigma(p) = p$$
-
-   - $$\sigma(\neg \varphi) = \neg \sigma(\varphi)$$
-
-   - $$\sigma(\varphi \to \psi) = \sigma(\varphi) \to \sigma(\varphi)$$
-
-   - $$\sigma (\Box \psi) = \psi$$
-
-   In other words, $\sigma$ scans a formula for subformulas of the form $$\Box \psi$$ and deletes the first occurrence of a modal operator in those formulas. Thus for example $$\sigma(\Box p \to \Box \Box p)$$ is just the formula: $$p \to \Box p$$, and $$\sigma(\Box p \to \Diamond p)$$, which is $$\sigma(\Box p \to \neg \Box \neg p)$$ becomes the formula: $$p \to \neg \neg p$$.
+   $$
+   \begin{array}{lll}
+   \sigma(p) & = & p\\
+   \sigma(\neg \varphi) & = &\neg \sigma(\varphi)\\
+   \sigma(\varphi \to \psi) & = & \sigma(\varphi) \to \sigma(\varphi)\\
+   \sigma (\Box \varphi) & = & \varphi\\
+   \end{array}
+   $$
+   In other words, $$\sigma$$ scans a formula for subformulas of the form $$\Box \psi$$ and deletes the first occurrence of a modal operator in those formulas. Thus for example $$\sigma(\Box p \to \Box \Box p)$$ is just the formula: $$p \to \Box p$$, and $$\sigma(\Box p \to \Diamond p)$$, which is $$\sigma(\Box p \to \neg \Box \neg p)$$ becomes the formula: $$p \to \neg \neg p$$.
 
    Use an induction on the length of proofs in $$\textsf{K}$$ to prove:
+
+   
    $$
    \begin{array}{llll}
    \text{if} & \textsf{K} \vdash \varphi, & \text{then} & \textsf{K} \vdash \sigma(\varphi)\\
@@ -55,9 +56,7 @@
 
 3. Prove that $$\textsf{K5}$$ proves the *necessitation* of every axiom of $$\textsf{KB4}$$. That is:
 
-   1. $$\textsf{K5} \vdash \Box (\varphi \to \Box \Diamond \varphi)$$
-
-      
+   1. $$\textsf{K5} \vdash \Box (\varphi \to \Box \Diamond \varphi)$$  
 
    2. $$\textsf{K5} \vdash \Box (\Box \varphi \to \Box \Box \varphi)$$
 
