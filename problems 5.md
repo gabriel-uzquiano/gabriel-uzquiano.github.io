@@ -61,10 +61,10 @@
 3. Prove that $$\textsf{K5}$$ proves the *necessitation* of every axiom of $$\textsf{KB4}$$. That is:
 
    1. $$\textsf{K5} \vdash \Box (\varphi \to \Box \Diamond \varphi)$$ <br/>
-
    2. $$\textsf{K5} \vdash \Box (\Box \varphi \to \Box \Box \varphi)$$<br/>
 
-      
+
+   <br/>
 
 4. Justify the facts given below:
 
@@ -76,7 +76,7 @@
 
       
 
-   
+   <br/>
 
 5. Prove that $$\textsf{KT5} = \textsf{KDB4}$$. That is:
 
