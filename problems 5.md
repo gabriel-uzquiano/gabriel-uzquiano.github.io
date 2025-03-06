@@ -39,7 +39,7 @@
    
    $$
    \begin{array}{llll}
-   \text{if} & \textsf{K} \vdash \varphi, & \text{then} & \textsf{K} \vdash \sigma(\varphi)\\
+   \text{if} &  \vdash_{\textsf{K}} \varphi, & \text{then} & \vdash_{\textsf{K}} \sigma(\varphi)\\
    \end{array}
    $$
 
@@ -60,8 +60,11 @@
 
 3. Prove that $$\textsf{K5}$$ proves the *necessitation* of every axiom of $$\textsf{KB4}$$. That is:
 
-   1. $$\textsf{K5} \vdash \Box (\varphi \to \Box \Diamond \varphi)$$ <br/>
-   2. $$\textsf{K5} \vdash \Box (\Box \varphi \to \Box \Box \varphi)$$<br/>
+   1. $$\vdash_{\textsf{K5}} \Box (\varphi \to \Box \Diamond \varphi)$$ <br/>
+   
+      
+   
+   2. $$\vdash_{\textsf{K5}} \Box (\Box \varphi \to \Box \Box \varphi)$$<br/>
 
 
    <br/>
