@@ -15,13 +15,17 @@
 
       
 
-   2. $$\Box \varphi \to \Box \psi/\varphi \to \psi$$ is a derived rule of inference for $$\textsf{K}$$.
+   2. $$\Box \varphi/\varphi$$ is a derived rule of inference for $$\textsf{KT}$$.
+
+      
+
+   3. $$\Box \varphi/\varphi$$ is a derived rule of inference for $$\textsf{KD}$$.
 
    
 
-   Consider the map $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:
+   Consider a transformation $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:
 
-   
+
    $$
    \begin{array}{lll}
    \sigma(p) & = & p\\
@@ -30,16 +34,16 @@
    \sigma (\Box \varphi) & = & \varphi\\
    \end{array}
    $$
-   
+
 
    In other words, $$\sigma$$ scans a formula for subformulas of the form $$\Box \psi$$ and deletes the first occurrence of a modal operator in those formulas. Thus for example $$\sigma(\Box p \to \Box \Box p)$$ is just the formula: $$p \to \Box p$$, and $$\sigma(\Box p \to \Diamond p)$$, which is $$\sigma(\Box p \to \neg \Box \neg p)$$ becomes the formula: $$p \to \neg \neg p$$.
 
-   Use an induction on the length of proofs in $$\textsf{K}$$ to prove:
+   For each system $$\Sigma$$ mentioned above, use an induction on the length of proofs in $$\Sigma$$ to prove:
 
-   
+
    $$
    \begin{array}{llll}
-   \text{if} &  \vdash_{\textsf{K}} \varphi, & \text{then} & \vdash_{\textsf{K}} \sigma(\varphi)\\
+   \text{if} &  \vdash_{\Sigma} \varphi, & \text{then} &  \vdash_{\Sigma} \sigma(\varphi)\\
    \end{array}
    $$
 
