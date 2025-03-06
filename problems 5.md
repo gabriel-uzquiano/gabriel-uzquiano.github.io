@@ -24,6 +24,8 @@
    
 
    Consider a transformation $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:<br/>
+   
+   
    $$
    \begin{array}{lll}
       \sigma(p) & = & p\\
