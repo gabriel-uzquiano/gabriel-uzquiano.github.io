@@ -23,7 +23,7 @@
 
    
 
-   Consider a transformation $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:
+   Consider a transformation $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:<br/>
    $$
    \begin{array}{lll}
       \sigma(p) & = & p\\
@@ -32,6 +32,8 @@
       \sigma (\Box \varphi) & = & \varphi\\
       \end{array}
    $$
+   <br/>
+   
    In other words, $$\sigma$$ scans a formula for subformulas of the form $$\Box \psi$$ and deletes the first occurrence of a modal operator in those formulas. Thus for example $$\sigma(\Box p \to \Box \Box p)$$ is just the formula: $$p \to \Box p$$, and $$\sigma(\Box p \to \Diamond p)$$, which is $$\sigma(\Box p \to \neg \Box \neg p)$$ becomes the formula: $$p \to \neg \neg p$$.
    
    For each system $$\Sigma$$ mentioned above, use an induction on the length of proofs in $$\Sigma$$ to prove:
