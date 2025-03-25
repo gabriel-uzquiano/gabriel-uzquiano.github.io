@@ -23,7 +23,9 @@
 
    
 
-   Consider a transformation $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:
+   Consider a transformation $$\sigma$$ from formulas of $$\mathcal{L}^{\Box}$$ into formulas of $$\mathcal{L}^{\Box}$$ defined by the recursion:<br/>
+
+   
    $$
    \begin{array}{lll}
       \sigma(p) & = & p\\
@@ -32,6 +34,8 @@
       \sigma (\Box \varphi) & = & \varphi\\
       \end{array}
    $$
+   <br/>
+
    In other words, $$\sigma$$ scans a formula for subformulas of the form $$\Box \psi$$ and deletes the first occurrence of a modal operator in those formulas. Thus for example $$\sigma(\Box p \to \Box \Box p)$$ is just the formula: $$p \to \Box p$$, and $$\sigma(\Box p \to \Diamond p)$$, which is $$\sigma(\Box p \to \neg \Box \neg p)$$ becomes the formula: $$p \to \neg \neg p$$.
 
     For the first two systems $$\Sigma$$ mentioned above, use an induction on the length of proofs in $$\Sigma$$ to prove:
@@ -47,13 +51,13 @@
 
       <br/>
 
-   Consider the case of $$\textsf{K}$$. We will proceed by complete induction without a base case on the length of proofs in $\textsf{K}$. We argue that **if** for each $m < n$, if there is a proof of $\varphi$ in $\textsf{K}$ of length less or equal to $m$ only if there is a proof of $\sigma(\varphi)$ in $\textsf{K}$, **then** if there is a proof of  of $\varphi$ in $\textsf{K}$ of length less or equal to $n$ only if there is a proof of $\sigma(\varphi)$ in $\textsf{K}$.
+   Consider the case of $$\textsf{K}$$. We will proceed by complete induction without a base case on the length of proofs in $$\textsf{K}$$. We argue that **if** for each $$m < n$$, if there is a proof of $$\varphi$$ in $$\textsf{K}$$ of length less or equal to $$m$$ only if there is a proof of $$\sigma(\varphi)$$ in $$\textsf{K}$$, **then** if there is a proof of  of $$\varphi$$ in $$\textsf{K}$$ of length less or equal to $$n$$ only if there is a proof of $$\sigma(\varphi)$$ in $$\textsf{K}$$.
 
-      Suppose that for each $m < n$, there is a proof of $\varphi$ in $\textsf{K}$ of length less or equal to $m$ only if there is a proof of $\sigma(\varphi)$ in $\textsf{K}$. Now, let 
+      Suppose that for each $$m < n$$, there is a proof of $$\varphi$$ in $\textsf{K}$ of length less or equal to $$m$$ only if there is a proof of $$\sigma(\varphi)$$ in $\textsf{K}$. Now, let 
    $$
    \langle \chi_1, \dots, \chi_n \rangle
    $$
-   be a proof of $\varphi$ in $\textsf{K}$ of length $n$. That means that $\chi_n = \varphi$ and for all $i \leq n$, $\chi_i$ is either (a) an axiom of $\textsf{K}$, or (b) an outcome of an application of necessitation to a prior line, or (c) an outcome of an application of modus ponens to two prior lines.
+   be a proof of $$\varphi$$ in $$\textsf{K}$$ of length $$n$$. That means that $$\chi_n = \varphi$$ and for all $$i \leq n$$, $$\chi_i$$ is either (a) a tautology, or (b) an axiom of $$\textsf{K}$$, or (b) an outcome of an application of necessitation to a prior line, or (d) an outcome of an application of modus ponens to two prior lines.
 
       1. If $\varphi$ is a tautology, then $$\sigma(\varphi)$$ is a tautology. Strictly speaking, we would have to use a separate induction to convince ourselves that if $$\varphi$$ is derivable from $$\psi_1, \cdots, \psi_n$$ in propositional logic, then $$\sigma(\varphi)$$ is itself derivable from $$\sigma(\psi_1), \cdots , \sigma(\psi_n)$$ in propositional logic. 
 
@@ -67,7 +71,7 @@
 
       4. $\varphi$ is the consequent of a conditional $(\psi \to \varphi)$, which is $\chi_i$ for some $i < n$ and $\psi$ is $\chi_j$ for some $j<n$. That means that there are proofs of each $(\psi \to \varphi)$ and $\psi$ in $\textsf{K}$ of length $< n$. By inductive hypothesis, $\vdash_{\textsf{K}} \sigma(\psi \to \varphi)$ and $\vdash_{\textsf{K}} \sigma(\psi)$. Since $\sigma(\psi \to \varphi)$ is $\sigma(\psi) \to \sigma(\varphi)$, $\vdash_{\textsf{K}} \sigma(\psi) \to \sigma(\varphi)$, whence $\vdash_{\textsf{K}} \sigma(\varphi)$.
 
-   For $\textsf{KD}$, we simply expand 2 to include the case in which $$\varphi$$ is an instance of $$\textsf{D}$$ of the form $$\Box \varphi \to \Diamond \varphi$$, which is just $$\Box \varphi \to \neg \Box \neg \varphi$$. Then:
+   For $$\textsf{KD}$$, we simply expand 2 to include the case in which $$\varphi$$ is an instance of $$\textsf{D}$$ of the form $$\Box \varphi \to \Diamond \varphi$$, which is just $$\Box \varphi \to \neg \Box \neg \varphi$$. Then:
    $$
    \begin{array}{lll}
    \sigma(\Box \varphi \to \neg \Box \neg \varphi) & = & \sigma(\varphi) \to \sigma(\neg \Box \neg \varphi) \\
