@@ -61,17 +61,19 @@
 
       1. If $\varphi$ is a tautology, then $$\sigma(\varphi)$$ is a tautology. Strictly speaking, we would have to use a separate induction to convince ourselves that if $$\varphi$$ is derivable from $$\psi_1, \cdots, \psi_n$$ in propositional logic, then $$\sigma(\varphi)$$ is itself derivable from $$\sigma(\psi_1), \cdots , \sigma(\psi_n)$$ in propositional logic. 
 
-      2. $\varphi$ is an axiom of $\textsf{K}$ of the form $\Box (\psi \to \chi) \to (\Box \psi \to \Box \chi)$.
+      2. $$\varphi$$ is an axiom of $$\textsf{K}$$ of the form $$\Box (\psi \to \chi) \to (\Box \psi \to \Box \chi)$$.
 
-         Note that $\sigma(\varphi)$ becomes $(\psi \to \chi) \to (\psi \to \chi)$, which is a theorem of $\textsf{K}$.
+         Note that $$\sigma(\varphi)$$ becomes $$(\psi \to \chi) \to (\psi \to \chi)$$, which is a theorem of $$\textsf{K}$$.
 
-      3. $\varphi$ is the necessitation of $\chi_m$, $\Box \chi_m$, for some $m < n$
+      3. $$\varphi$$ is the necessitation of $$\chi_m$$, $$\Box \chi_m$$, for some $$m < n$$
 
-         That means there is a proof of $\chi_m$ in $\textsf{K}$ of length $m < n$. But notice that $\sigma(\varphi)$ is just $\chi_m$, and $\vdash_{\textsf{K}} \sigma(\varphi)$.
+         That means there is a proof of $$\chi_m$$ in $$\textsf{K}$$ of length $$m < n$$. But notice that $$\sigma(\varphi)$$ is just $$\chi_m$$, and $$\vdash_{\textsf{K}} \sigma(\varphi)$$.
 
-      4. $\varphi$ is the consequent of a conditional $(\psi \to \varphi)$, which is $\chi_i$ for some $i < n$ and $\psi$ is $\chi_j$ for some $j<n$. That means that there are proofs of each $(\psi \to \varphi)$ and $\psi$ in $\textsf{K}$ of length $< n$. By inductive hypothesis, $\vdash_{\textsf{K}} \sigma(\psi \to \varphi)$ and $\vdash_{\textsf{K}} \sigma(\psi)$. Since $\sigma(\psi \to \varphi)$ is $\sigma(\psi) \to \sigma(\varphi)$, $\vdash_{\textsf{K}} \sigma(\psi) \to \sigma(\varphi)$, whence $\vdash_{\textsf{K}} \sigma(\varphi)$.
+      4. $$\varphi$$ is the consequent of a conditional $$(\psi \to \varphi)$$, which is $$\chi_i$$ for some $$i < n$$ and $$\psi$$ is $$\chi_j$$ for some $$j<n$$. That means that there are proofs of each $$(\psi \to \varphi)$$ and $$\psi$$ in $$\textsf{K}$$ of length less than $$n$$. By inductive hypothesis, $$\vdash_{\textsf{K}} \sigma(\psi \to \varphi)$$ and $$\vdash_{\textsf{K}} \sigma(\psi)$$. Since $$\sigma(\psi \to \varphi)$$ is $$\sigma(\psi) \to \sigma(\varphi)$$, $$\vdash_{\textsf{K}} \sigma(\psi) \to \sigma(\varphi)$, whence $\vdash_{\textsf{K}} \sigma(\varphi)$$.
 
-   For $$\textsf{KD}$$, we simply expand 2 to include the case in which $$\varphi$$ is an instance of $$\textsf{D}$$ of the form $$\Box \varphi \to \Diamond \varphi$$, which is just $$\Box \varphi \to \neg \Box \neg \varphi$$. Then:
+   For $$\textsf{KD}$$, we simply expand 2 to include the case in which $$\varphi$$ is an instance of $$\textsf{D}$$ of the form $$\Box \varphi \to \Diamond \varphi$$, which is just $$\Box \varphi \to \neg \Box \neg \varphi$$. Then:<br/>
+
+   
    $$
    \begin{array}{lll}
    \sigma(\Box \varphi \to \neg \Box \neg \varphi) & = & \sigma(\varphi) \to \sigma(\neg \Box \neg \varphi) \\
@@ -79,9 +81,13 @@
     & = & \varphi \to \neg \neg \varphi
    \end{array}
    $$
+   <br/>
+
    Since $\varphi \to \neg \neg \varphi$ is a tautology, it is a theorem of $\textsf{KD}$.
 
-   We are not able to use the same strategy for $$\textsf{KT}$$ because there is no guarantee that the transformation of $$\Box \varphi \to \varphi$$ is a tautology, e.g., $$\sigma(\Box (\Box p \to \Box q) \to (\Box p \to \Box q)) = (\Box p \to \Box q) \to (p \to q)$$, which is not a tautology. Instead, we may simply explain how to expand a proof of $$\Box \varphi$$ into a proof of $$\varphi$$ by appeal to axiom $$\textsf{T}$$:
+   We are not able to use the same strategy for $$\textsf{KT}$$ because there is no guarantee that the transformation of $$\Box \varphi \to \varphi$$ is a tautology, e.g., $$\sigma(\Box (\Box p \to \Box q) \to (\Box p \to \Box q)) = (\Box p \to \Box q) \to (p \to q)$$, which is not a tautology. Instead, we may simply explain how to expand a proof of $$\Box \varphi$$ into a proof of $$\varphi$$ by appeal to axiom $$\textsf{T}$$:<br/>
+
+   
    $$
    \begin{array}{llll}
    1 & \cdots & \\
@@ -91,7 +97,7 @@
    n+2 & \varphi & \textsf{MP} 1, 2\\
    \end{array}
    $$
-   
+   <br/>
 
   
 
