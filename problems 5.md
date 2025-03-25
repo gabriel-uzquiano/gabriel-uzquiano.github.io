@@ -83,7 +83,7 @@
    $$
    <br/>
 
-   Since $$\varphi \to \neg \neg \varphi$$ is a tautology, it is a theorem of $\textsf{KD}$.
+   Since $$\varphi \to \neg \neg \varphi$$ is a tautology, it is a theorem of $$\textsf{KD}$$.
 
    We are not able to use the same strategy for $$\textsf{KT}$$ because there is no guarantee that the transformation of $$\Box \varphi \to \varphi$$ is a tautology, for example, $$\sigma(\Box (\Box p \to \Box q) \to (\Box p \to \Box q))$$ is just  $$(\Box p \to \Box q) \to (p \to q)$$, which is not a tautology. Instead, we may simply explain how to expand a proof of $$\Box \varphi$$ into a proof of $$\varphi$$ by appeal to axiom $$\textsf{T}$$:<br/>
 
@@ -97,6 +97,8 @@
    n+2 & \varphi & \textsf{MP} 1, 2\\
    \end{array}
    $$
+   <br/>
+
    <br/>
 
   
