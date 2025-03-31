@@ -12,10 +12,13 @@
 1. Consider the following conditions on accessibility:
 
    -  A relation $$R$$ *dense* on $$W$$ if, and only if, for all $$u, v \in W$$, if $$Ruv$$, then there is some $$t\in W$$ such that $$Rut$$ and $$Rtv$$. <br/>
+
    - A relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. <br/>
-   
+
+     
+
    Outline an argument for the completeness of each normal modal system listed below with respect to the class of frames $$(W, R)$$ in which $$R$$ satisfies the relevant condition:<br/>
-   
+
    
    
    1. $$\textsf{K} + \Diamond p \to \Box p$$ / $$R$$ is functional on $$W$$<br/>
@@ -45,9 +48,7 @@
 
    <br/>
 
-   
-
-3. Which of the following formulas are valid in every branching tree frame?
+3. Which of the following formulas are valid in every branching tree frame? Justify your answers.
 
    1. $$\Diamond \textsf{H}p \to \textsf{H} \Diamond p$$<br/>
 
