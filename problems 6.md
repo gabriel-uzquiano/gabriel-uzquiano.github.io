@@ -31,8 +31,6 @@
    
    You may take for granted for each normal modal system $$\Sigma$$ above that if $$\Sigma$$-consistent, a formula $$\varphi$$ is true at some world in the canonical model for $$\Sigma$$.
    
-   
-   
 
 
 ### tense logic&nbsp;
