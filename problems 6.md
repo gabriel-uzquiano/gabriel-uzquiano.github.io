@@ -11,8 +11,8 @@
 
 1. Consider the following conditions on accessibility:
 
-   -  A relation $$R$$ *dense* on $$W$$ if, and only if, for all $$u, v \in W$$, if $$Ruv$$, then there is some $$t\in W$$ such that $$Rut$$ and $$Rtv$$. 
-   - A relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
+   -  A relation $$R$$ *dense* on $$W$$ if, and only if, for all $$u, v \in W$$, if $$Ruv$$, then there is some $$t\in W$$ such that $$Rut$$ and $$Rtv$$. <br/>
+   - A relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. <br/>
    
    Outline an argument for the completeness of each normal modal system listed below with respect to the class of frames $$(W, R)$$ in which $$R$$ satisfies the relevant condition:<br/>
    
@@ -22,9 +22,8 @@
    
        
    
-   2. $$\textsf{K} + \Diamond \Diamond p \to \Diamond p$$ / $$R$$ is dense on $$W$$
+   2. $$\textsf{K} + \Diamond \Diamond p \to \Diamond p$$ / $$R$$ is dense on $$W$$<br/>
    
-      <br/>
    
    
    You may take for granted for each normal modal system $$\Sigma$$ above that if $$\Sigma$$-consistent, a formula $$\varphi$$ is true at some world in the canonical model for $$\Sigma$$.
@@ -35,7 +34,7 @@
 
 ### tense logic&nbsp;
 
-2. Let $$(T, <)$$ be a total order that is $$R$$-extendible. We say that $$(T, <)$$ is a *well-ordering* iff every subset $$U \subseteq T$$ has a $$<$$-minimal element, that is, a member $$u \in U$$ such that $$u < t$$ for all $$t\in T$$. Justify the claim below:
+2. Let $$(T, <)$$ be a total order that is $$R$$-extendible. We say that $$(T, <)$$ is a *well-ordering* iff every subset $$U \subseteq T$$ has a $$<$$-minimal element, that is, a member $$u \in U$$ such that $$u < t$$ for all $$t\in T$$. Justify the claim below:<br/>
 
    
    $$
@@ -52,7 +51,7 @@
 
    1. $$\Diamond \textsf{H}p \to \textsf{H} \Diamond p$$<br/>
 
-   1. $$\textsf{H}\Diamond p \to \Diamond \textsf{H} p$$
+   1. $$\textsf{H}\Diamond p \to \Diamond \textsf{H} p$$<br/>
 
       
 
