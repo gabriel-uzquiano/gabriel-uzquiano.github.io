@@ -35,7 +35,7 @@
 
 ### tense logic&nbsp;
 
-2. Let $$(T, <)$$ be a total order that is $$R$$-extendible. We say that $$(T, <)$$ is a *well-ordering* iff every subset $$U \subseteq T$$ has a $$<$$-minimal element, that is, a member $$u \in U$$ such that $$t \not < u$$ for all $$t\in U$$ other than $$u$$. Justify the claim below:<br/>
+2. Let $$(T, <)$$ be a total order that is $$R$$-extendible. We say that $$(T, <)$$ is a *well-ordering* iff every subset $$U \subseteq T$$ has a $$<$$-minimal element, that is, a member $$u \in U$$ such that $$t \not < u$$ for all $$t\in U$$. Justify the claim below:<br/>
 
    
    $$
