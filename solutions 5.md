@@ -148,6 +148,12 @@
       10 & \Box (\varphi \to \Box \Diamond \varphi) & \textsf{PL} \ 5, 9
       \end{array}
       $$
+      <br/>
+
+      <br/>
+
+      
+
       There is an alternative justification, which appeals to the completeness of $$\textsf{K5}$$ with respect to the class of euclidean frames. Since every substitution instance of the formula $$\Box (p \to \Box \Diamond p)$$ is valid in all euclidean frames, by completeness, they should be provable in $$\textsf{K5}$$.
 
       For let a world $$w$$ be a member of $$W$$ in an euclidean frame $$( W, R)$$. We set out to show that $$(W, R, V), w \Vdash \Box (\varphi \to \Box \Diamond \varphi)$$ no matter what $$V$$ may be. That is, for each $$u\in W$$, if $$Rwu$$, then  $$(W, R, V), u \Vdash \varphi \to \Box \Diamond \varphi$$.  Notice that if $$Rwu$$, since $$R$$ is euclidean on $$W$$, $$Ruu$$. Now, suppose $$(W, R, V), u \Vdash \varphi$$ and let $v\in W$ be such that $$Ruv$$. Since $$R$$ is euclidean on $$W$$, we infer that $$Rvu$$, which means that $$(W, R, V), v \Vdash \Diamond \varphi$$. Generalizing, we have $$(W, R, V), u \Vdash  \Box \Diamond \varphi$$  and thus $$(W, R, V), u \Vdash \varphi \to \Box \Diamond \varphi$$.
@@ -171,6 +177,10 @@
       7 & \Box (\Box \varphi \to \Box \Box \varphi) & \textsf{PL} \ 5, 6
       \end{array}
       $$
+      <br/>
+      
+      
+      
       There is an alternative justification, which appeals to the completeness of $$\textsf{K5}$$ with respect to the class of euclidean frames. Since every substitution instance of the formula $$\Box (\Box p \to \Box \Box p)$$ is valid in all euclidean frames, by completeness, they should be provable in $$\textsf{K5}$$.
       
       For let a world $$w$$ be a member of $$W$$ in an euclidean frame $$( W, R)$$. We set out to show that $$(W, R, V), w \Vdash \Box (\Box \varphi \to \Box \Box \varphi)$$ no matter what $$V$$ may be. That is, for each $$u\in W$$, if $$Rwu$$, then  $$(W, R, V), u \Vdash \Box \varphi \to \Box \Box \varphi$$.  Notice that if $$Rwu$$, since $$R$$ is euclidean on $$W$$, $$Ruu$$. Now, suppose $$(W, R, V), u \Vdash \Box \varphi$$ and let $v\in W$ be such that $$Ruv$$. We argue that $$(W, R, V), v \Vdash \Box \varphi$$. To that purpose let $$t \in W$$ be such that $$Rvt$$. Since $$R$$ is euclidean on $$W$$ and we have $$Ruv$$ and $$Ruu$$, we know that $$Rvu$$. Furthermore, since $$Rvu$$ and $$Rvt$$, we have that $$Rut$$. But since $$\Box \varphi$$ is true at $$u$$, $$\varphi$$ is true at $$t$$. Generalizing, we have $$(W, R, V), v \Vdash \Box \varphi$$ and $$(W, R, V), u \Vdash \Box \varphi \to \Box \Box \varphi$$.
@@ -188,6 +198,8 @@
    2. $$\Box \varphi/\varphi$$ is *not* a derived rule of inference for $$\textsf{KB4}$$
 
       Notice, first, that $$\vdash_{\textsf{KB4}} \Box(\Box \varphi \to \varphi)$$.
+      
+      
       $$
       \begin{array}{llll}
       1 & \Diamond \Box \varphi \to \Box \varphi & \textsf{5}_\Diamond \\
@@ -198,8 +210,12 @@
       6 & \Box (\Box \varphi \to \varphi) & \textsf{PL} \ 5 \\
       \end{array}
       $$
+      <br/>
+      
+      
+      
       On the other hand, $$\nvdash_{\textsf{KB4}} \Box \varphi \to \varphi$$. For $$\textsf{KB4}$$ is sound with respect to the class of symmetric and transitive frames, and not all symmetric and transitive frames are reflexive. There are, in other words, models based on symmetric and transitive frames in which $$\Box \varphi \to \varphi$$ fails.
-
+   
    <br/>
-
+   
    
