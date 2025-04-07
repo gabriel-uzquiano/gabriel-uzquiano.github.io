@@ -25,7 +25,7 @@
    
        
    
-   2. $$\textsf{K} + \Diamond \Diamond p \to \Diamond p$$ / $$R$$ is dense on $$W$$<br/>
+   2. $$\textsf{K} + \Diamond p \to \Diamond \Diamond p$$ / $$R$$ is dense on $$W$$<br/>
    
    
    
