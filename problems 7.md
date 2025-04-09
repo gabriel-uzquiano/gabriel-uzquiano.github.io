@@ -10,6 +10,8 @@
 ### deontic logic
 
 1. $$\textsf{KDU}$$ is a deontic logic that extends $$\textsf{KD}$$ with all substitution instances of the axiom:<br/>
+   
+   
    $$
    \textsf{O}(\textsf{O}p \to p) \tag{U}
    $$
@@ -30,9 +32,9 @@
    5. $$\textsf{KDU}$$ proves every substitution instance of $$\textsf{O}p \to \textsf{O}\textsf{P}p$$.<br/>
 
    6. $$\textsf{KD5}$$ is a proper extension of $$\textsf{KDU}$$<br/>
-
-   7. Neither $$\textsf{KD4}$$  nor $$\textsf{KDU}$$ are extensions of each other.<br/>
    
+   7. Neither $$\textsf{KD4}$$  nor $$\textsf{KDU}$$ are extensions of each other.<br/>
+
    
    Please feel free to appeal to material drawn from the notes and/or to your answers to earlier problem sets.
 
