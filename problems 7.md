@@ -34,5 +34,5 @@ $$
 7. Neither $$\textsf{KD4}$$  nor $$\textsf{KDU}$$ are extensions of each other.<br/>
 
 
-Please feel free to appeal to material drawn from the notes and/or to your answers to earlier problem sets.
+Please feel free to draw from material drawn from the notes and/or solutions to earlier problem sets.
 
