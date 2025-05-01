@@ -92,7 +92,7 @@ $$
 
    ![solutions-7.1.7a](https://p.ipic.vip/24k7a1.png)
 
-   $\textsf{KDU}$ is not an extension of $$\textsf{KD4}$$ because $$\textsf{U}$$ is not valid in every serial and transitive frame. Consider, for example, the serial and transitive model depicted below, and notice that $$\textsf{O}(\textsf{O}p \to p)$$ fails at $$w_1$$.
+   $$\textsf{KDU}$$ is not an extension of $$\textsf{KD4}$$ because $$\textsf{U}$$ is not valid in every serial and transitive frame. Consider, for example, the serial and transitive model depicted below, and notice that $$\textsf{O}(\textsf{O}p \to p)$$ fails at $$w_1$$.
 
    ![solutions-7.1.7b](https://p.ipic.vip/n6by01.png)
 
