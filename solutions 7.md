@@ -41,7 +41,9 @@ $$
 
 4. $$\textsf{KDU}$$ proves every substitution instance of $$\textsf{P}p \to \textsf{PP}p$$.
 
-   Here is a derivation schema:
+   Here is a derivation schema:<br/>
+
+   
    $$
    \begin{array}{llll}
    1 & \textsf{O}(\textsf{O}\varphi \to \varphi) & U[\varphi/p] \\
@@ -49,6 +51,8 @@ $$
    3 & \textsf{O}\textsf{O}\varphi \to \textsf{O}\varphi & \textsf{PL} \ 1, 2
    \end{array}
    $$
+   <br/>
+
    But the formula $$\textsf{O}\textsf{O}\varphi \to \textsf{O}\varphi$$ is just the dual of $$\textsf{P}\varphi \to \textsf{PP}\varphi$$ to which is equivalent modulo $$\textsf{K}$$.
 
    We may reason semantically as well. The formula $$\textsf{P}p \to \textsf{PP}p$$ defines the class of dense frames, but every serial and weakly reflexive model is dense. The definability claim is briefly mentioned in [problem set 6](https://gabriel-uzquiano.github.io/problems%206).<br/>
@@ -57,7 +61,9 @@ $$
 
 5. $$\textsf{KDU}$$ proves every substitution instance of $$\textsf{O}p \to \textsf{O}\textsf{P}p$$.
 
-   Here is a derivation schema:
+   Here is a derivation schema:<br/>
+
+   
    $$
    \begin{array}{llll}
    1 & (\textsf{O}\neg \varphi \to \neg \varphi) \to (\varphi \to \textsf{P}\varphi) & \textsf{PL}\\
@@ -74,7 +80,7 @@ $$
 
    This is a corollary of the fact that $$\vdash_{K5} \textsf{O} (\textsf{O}\varphi \to \varphi)$$. For a proof, you may consult the [solution](https://gabriel-uzquiano.github.io/solutions%205) to 4.2 in problem set 5. Alternatively, you can reason semantically and notice that every euclidean frame is weakly reflexive.
 
-   On the other hand, there are serial and weakly reflexive models, which fail to be euclidean. All such models will falsify $\textsf{P}p \to \textsf{O}\textsf{P}p$, which is just axiom $\textsf{5}$.
+   On the other hand, there are serial and weakly reflexive models, which fail to be euclidean. All such models will falsify $$\textsf{P}p \to \textsf{O}\textsf{P}p$$, which is just axiom $$\textsf{5}$$.
 
    <br/>
 
@@ -82,7 +88,7 @@ $$
 
    We reason semantically.
 
-   $\textsf{KD4}$ is not an extension of $$\textsf{KDU}$$ because $$\textsf{4}$$ is not valid in every serial and weakly reflexive frame. Consider, for example, the serial and weakly reflexive model depicted below, and notice that $$\textsf{O}p \to \textsf{O}\textsf{O}p$$ fails at $$w_1$$.
+   $$\textsf{KD4}$$ is not an extension of $$\textsf{KDU}$$ because $$\textsf{4}$$ is not valid in every serial and weakly reflexive frame. Consider, for example, the serial and weakly reflexive model depicted below, and notice that $$\textsf{O}p \to \textsf{O}\textsf{O}p$$ fails at $$w_1$$.
 
    ![solutions-7.1.7a](https://p.ipic.vip/24k7a1.png)
 
@@ -90,10 +96,6 @@ $$
 
    ![solutions-7.1.7b](https://p.ipic.vip/n6by01.png)
 
-   This is because $$\textsf{O}p \to p$$ fails at $w_2$, which is accessible from $$w_1$$. <br/>
+   This is because $$\textsf{O}p \to p$$ fails at $$w_2$$, which is accessible from $$w_1$$. <br/>
 
-
-
-
-Please feel free to appeal to material drawn from the notes and/or to your answers to earlier problem sets.
 
