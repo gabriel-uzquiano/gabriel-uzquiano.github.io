@@ -29,16 +29,18 @@ I received my PhD from the Department of [Linguistics](http://web.mit.edu/lingui
 
 [A Framework for Location](https://drive.google.com/file/d/124SG6v9aTGqONE43-pgOL6lrDUDbC0K4/view?usp=sharing)
 
+Iterative Divisibility
+
 
 ### courses
 
 PHIL 452. Modal Logic
 
-:	[Spring 2025](https://gabriel-uzquiano.github.io/courses/452)
+:	[Fall 2025](https://gabriel-uzquiano.github.io/courses/452)
 
 PHIL 220g. Introduction to Logic
 
-:	Fall 2024
+:	[Fall 2025](https://gabriel-uzquiano.github.io/courses/220)
 
 ### materials
 
