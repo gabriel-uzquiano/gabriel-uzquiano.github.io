@@ -33,4 +33,3 @@
 
 ## 3. Parts, Places, and Persistence
 
-\\
