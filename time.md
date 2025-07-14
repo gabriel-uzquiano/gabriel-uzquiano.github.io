@@ -16,9 +16,9 @@ permalink: /courses/460
 | ------- | :----------------------------------- |
 | Mon 8/4 | Tense and Ontology <img width="70"/> |
 
-|         | Identity over Time                                      |
-| :------ | :------------------------------------------------------ |
-| Wed 8/6 | Persistence and the Problem of Chance <img width="40"/> |
+|         | Identity over Time                       |
+| :------ | :--------------------------------------- |
+| Wed 8/6 | Persistence and Change <img width="40"/> |
 
 |         | Time and Location |
 | ------- | :---------------- |
