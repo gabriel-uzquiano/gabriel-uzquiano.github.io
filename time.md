@@ -14,11 +14,11 @@ permalink: /courses/460
 
 |         | Time                                 |
 | ------- | :----------------------------------- |
-| Mon 8/4 | Tense and Ontology <img width="55"/> |
+| Mon 8/4 | Tense and Ontology <img width="60"/> |
 
 |         | Identity over time                       |
 | :------ | :--------------------------------------- |
-| Wed 8/6 | Change and Persistence <img width="25"/> |
+| Wed 8/6 | Change and Persistence <img width="30"/> |
 
 |         | Time and Location        |
 | ------- | :----------------------- |
