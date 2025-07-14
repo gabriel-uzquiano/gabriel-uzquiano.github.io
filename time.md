@@ -20,9 +20,9 @@ permalink: /courses/460
 | :------ | :--------------------------------------- |
 | Wed 8/6 | Change and Persistence <img width="20"/> |
 
-|         | Time and Location                          |
-| ------- | :----------------------------------------- |
-| Fri 8/8 | Parts, Places, and Times <img width="20"/> |
+|         | Time and Location        |
+| ------- | :----------------------- |
+| Fri 8/8 | Parts, Places, and Times |
 
 
 
