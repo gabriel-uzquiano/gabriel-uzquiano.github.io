@@ -10,10 +10,6 @@
 
 
 
-# time
-
-
-
 |         |               Time |
 | ------- | -----------------: |
 | Mon 8/4 | Tense and Ontology |
