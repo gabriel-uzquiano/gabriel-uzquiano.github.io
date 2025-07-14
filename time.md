@@ -14,7 +14,7 @@ permalink: /courses/460
 
 |         | Time                                 |
 | ------- | :----------------------------------- |
-| Mon 8/4 | Tense and Ontology <img width="60"/> |
+| Mon 8/4 | Tense and Ontology <img width="50"/> |
 
 |         | Identity over time                       |
 | :------ | :--------------------------------------- |
@@ -22,7 +22,7 @@ permalink: /courses/460
 
 |         | Parts and Places                   |
 | ------- | :--------------------------------- |
-| Fri 8/8 | Parts and Places <img width="30"/> |
+| Fri 8/8 | Parts and Places <img width="40"/> |
 
 
 
