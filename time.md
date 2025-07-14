@@ -18,11 +18,11 @@ permalink: /courses/460
 
 |         | Identity over time                       |
 | :------ | :--------------------------------------- |
-| Wed 8/6 | Change and Persistence <img width="30"/> |
+| Wed 8/6 | Change and Persistence <img width="25"/> |
 
-|         | Parts and Places                   |
-| ------- | :--------------------------------- |
-| Fri 8/8 | Parts and Places <img width="40"/> |
+|         | Time and Location                          |
+| ------- | :----------------------------------------- |
+| Fri 8/8 | Parts, Places, and Times <img width="40"/> |
 
 
 
