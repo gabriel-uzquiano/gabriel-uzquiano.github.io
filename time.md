@@ -16,13 +16,13 @@ permalink: /courses/460
 | ------- | :----------------------------------- |
 | Mon 8/4 | Tense and Ontology <img width="90"/> |
 
-|         | Identity over time     |
-| :------ | :--------------------- |
-| Wed 8/6 | Change and Persistence |
+|         | Identity over time                       |
+| :------ | :--------------------------------------- |
+| Wed 8/6 | Change and Persistence <img width="30"/> |
 
-|         | Parts and Places |
-| ------- | :--------------- |
-| Fri 8/8 | Parts and Places |
+|         | Parts and Places                   |
+| ------- | :--------------------------------- |
+| Fri 8/8 | Parts and Places <img width="30"/> |
 
 
 
