@@ -295,8 +295,8 @@ David Lewis claims that the $B$-theoretic approach rests on a mistake.
 
 What exactly is for something to be *wholly present* at a moment of time?
 
-- $o$ is *wholly present* at $t$ if, and only if, for every $x$, if $x$ is part of $o$, then $x$ is present at $t$.
-- $o$ is *wholly present* at $t$ if, and only if, for every $x$, if $x$ is part of $o$ at $t$, then $x$ is present at $t$.
+- $$o$$ is *wholly present* at $$t$$ if, and only if, for every $$x$$, if $$x$$ is part of $$o$$, then $$x$$ is present at $$t$$.
+- $$o$$ is *wholly present* at $$t$$ if, and only if, for every $$x$$, if $$x$$ is part of $$o$$ at $$t$$, then $$x$$ is present at $$t$$.
 
 One difference between the two options is that they construe the relation of part to whole as a binary relarion in one case and as a ternary relation between two objects and a time in the other.
 
@@ -308,8 +308,8 @@ Mereology is the formal theory of the part to whole relation.
 
 There is a primitive binary relation of part to whole, which we symbolize $\leq$. We may now define other predicates in terms of part:
 
-- $x$ overlaps $y$, symbolized $x \circ y$, iff $x$ and $y$ have a common part $z$, that is, $z \leq x$ and $z \leq y$.
-- $x$ is a *fusion* of a set of objects $S$ iff each and every member $y$ of $S$ is part of $x$, and each and every part of $x$ overlaps some member of $S$.
+- $$x$$ overlaps $$y$$, symbolized $$x \circ y$$, iff $$x$$ and $$y$$ have a common part $$z$$, that is, $$z \leq x$$ and $$z \leq y$$.
+- $$x$$ is a *fusion* of a set of objects $$S$$ iff each and every member $$y$$ of $$S$$ is part of $$x$$, and each and every part of $$x$$ overlaps some member of $$S$$.
 
 Most axiomatizations of mereology agree on a common core of three axioms to the effect that the relation of part to whole is a partial order of the domain:
 
@@ -333,7 +333,7 @@ x \nleq y \to \exists z (z \leq x \wedge \neg z \circ y) & & \text{Strong Supple
 \end{align}
 $$
 
-Strong Supplementation appears reasonable for regions of space. If $r$ is a spatial region and $s$ is *not* a subregion of $r$, then $s$ must include a subregion that does not overlap $r$. If you conceive of regions as sets of points, then a region is part of another iff the latter contains each and every point in the former. But if $s$ is not part of $r$, then $s$ must include points that are not in $r$, and a set of such points should itself count as a part of $s$, which fails to overlap $r$.
+Strong Supplementation appears reasonable for regions of space. If $$r$$ is a spatial region and $$s$$ is *not* a subregion of $$r$$, then $$s$$ must include a subregion that does not overlap $$r$$. If you conceive of regions as sets of points, then a region is part of another iff the latter contains each and every point in the former. But if $$s$$ is not part of $$r$$, then $$s$$ must include points that are not in $$r$$, and a set of such points should itself count as a part of $$s$$, which fails to overlap $$r$$.
 
 Even more problematic is the axiom of Fusion according to which every set has a mereological fusion ...
 
@@ -357,29 +357,29 @@ One option is to define *exact location* in terms of more basic locative relatio
 
 Josh Parsons makes a disinction between four different locative relations:
 
-- $o$ is *weakly located* at $r$, in symbols: $o @_\circ r$.
+- $$o$$ is *weakly located* at $$r$$, in symbols: $$o @_\circ r$$.
 
-  $o$ is weakly located at $r_2$, $r_3$, $r_4$, and $r_5$.
+  $$o$$ is weakly located at $$r_2$$, $$r_3$$, $$r_4$$, and $$r_5$$.
 
-  $o$ is not weakly located at $r_1$
+  $$o$$ is not weakly located at $$r_1$$
 
-- $o$ is *entirely located* at $r$, in symbols: $o @_< r$.
+- $$o$$ is *entirely located* at $$r$$, in symbols: $$o @_< r$$.
 
-  $o$ is entirely located at $r_1$ and $r_4$.
+  $$o$$ is entirely located at $$r_1$$ and $$r_4$$.
 
-  $o$ is not entirely located at $r_1$ or $r_2$.
+  $$o$$ is not entirely located at $$r_1$$ or $$r_2$$.
 
-- $o$ *pervades* at $r$, in symbols: $o @_> r$.
+- $$o$$ *pervades* at $$r$$, in symbols: $$o @_> r$$.
 
-  $o$ pervades both $r_4$ and $r_5$.
+  $$o$$ pervades both $$r_4$$ and $$r_5$$.
 
-  $o$ does not pervade $r_1$, $r_2$, or $r_3$.
+  $$o$$ does not pervade $$r_1$$, $$r_2$$, or $$r_3$$.
 
-- $o$ is exactly located at $r$, in symbols: $o @ r$.
+- $$o$$ is exactly located at $$r$$, in symbols: $$o @ r$$.
 
-  $o$ is exactly located at $r_3$.
+  $$o$$ is exactly located at $$r_3$$.
 
-  $o$ is exactly located at $r_1$, $r_2$, $r_4$, or $r_5$.
+  $$o$$ is exactly located at $$r_1$$, $$r_2$$, $$r_4$$, or $$r_5$$.
 
 ![index-fig1](https://plato.stanford.edu/archives/fall2018/entries/location-mereology/index-fig1.png)
 
@@ -387,17 +387,17 @@ Josh Parsons makes a disinction between four different locative relations:
 
 One approach is to take *weak location* as a primitive locative relation and to define all other three in terms of weak location and the part to whole relation. The thought is that to be *weakly located* at a region is for the region to not be free of the occupant. This is not a definition but merely an elucidation.
 
-- $o$ is entirely located at $r$ iff $o$ is weakly located at $r$ and $o$ is only weakly located at regions that overlap $r$
+- $$o$$ is entirely located at $$r$$ iff $$o$$ is weakly located at $$r$$ and $$o$$ is only weakly located at regions $$r$$ overlaps.
   $$
   o @_< r := o @_\circ r \wedge \forall s (o @_\circ s \to r \circ s)
   $$
 
-- $o$ pervades $r$ iff $o$ is weakly located at each and every region $r$ overlaps.
+- $$o$$ pervades $$r$$ iff $$o$$ is weakly located at each and every region $$r$$ overlaps.
   $$
   o @_> r := \forall s (r \circ s \to o @_\circ s)
   $$
 
-- $o$ is exactly located at $r$ iff $o$ both pervades and is entirely located at $r$.
+- $$o$$ is exactly located at $$r$$ iff $$o$$ both pervades and is entirely located at $$r$$.
   $$
   o @ r := o @_> r \wedge o @_< s
   $$
@@ -414,17 +414,17 @@ Some consequences:
 
 Alternatively, one could take exact location as a primitive and define all other locative relations in terms of it. The exact (spatial) location of an occupant is like the shadow it casts in space.
 
-- $o$ is weakly located at $r$ iff $o$ is exactly located at some region $r$ overlaps:
+- $$o$$ is weakly located at $$r$$ iff $$o$$ is exactly located at some region $$r$$ overlaps:
   $$
   o @_\circ r := \exists s (o @ s \wedge r \circ s)
   $$
 
-- $o$ is entirely located at $r$ iff $o$ is exactly located at some region of which $r$ is part.
+- $$o$$ is entirely located at $$r$$ iff $$o$$ is exactly located at some region of which $$r$$ is part.
   $$
   o @_< r := \exists s (o @ s \wedge s \leq r)
   $$
 
-- $o$ pervades $r$ iff $o$ $o$ is exactly located at some subregion of $r$.
+- $$o$$ pervades $$r$$ iff $$o$$ is exactly located at some subregion of $$r$$.
   $$
   o @_> r := \exists s (o @ s \wedge r \leq s)
   $$
