@@ -22,7 +22,7 @@ permalink: /courses/460
 
 |         | Time and Location                  |
 | ------- | :--------------------------------- |
-| Fri 8/8 | Temporal Location<img width="40"/> |
+| Fri 8/8 | Temporal Location<img width="60"/> |
 
 
 
