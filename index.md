@@ -27,9 +27,9 @@ I received my PhD from the Department of [Linguistics](http://web.mit.edu/lingui
 
 ### work in progress
 
-[A Framework for Location](https://drive.google.com/file/d/1lMKQf3ZfhtoW9SVi7uXVl6QJczMa229_/view?usp=sharing)
+[A Framework for Location](https://drive.google.com/file/d/1lMKQf3ZfhtoW9SVi7uXVl6QJczMa229_/view?usp=sharing), forthcoming in *The Journal of Philosophical Logic.*
 
-Iterative Divisibility
+Iterative Divisibility (with Sam Roberts)
 
 
 ### courses
