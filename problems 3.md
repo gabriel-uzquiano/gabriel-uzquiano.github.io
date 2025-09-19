@@ -9,10 +9,7 @@
 
 ### propositional logic: axiomatic derivations
 
-Please plan to write solutions to either problems
-
-- 1, 2, and 3, or
-- 2, 3, and 4.
+**Choose your own adventure.** Please plan to write solutions to either problems 1, 2, and 3, or to problems 2, 3, and 4.<br/><br/>
 
 
 
