@@ -30,26 +30,40 @@ What follows is a list of sample topics that would be appropriate for a final pr
 2. A concise formulation of the *modal ontological argument* is as follows:
 
    1. Necessarily, if God exists, then God necessarily exists.
+   
    2. God possibly exists.
-   3. Therefore, God exists.<br/>
+
+   3. Therefore, God exists.
+
+      
 
    When formalized in the language of modal propositional logic, the argument becomes valid only against the background of certain powerful normal modal systems such as $$\textsf{S5}$$. 
-
+   
    
 
    On the other hand, there appears to be a parallel argument available for the non-existence of God, which may be paraphrased as follows:
-   
+
    1. Necessarily, if God exists, then God necessarily exists.
+
    2. God possibly does not exist.
+   
    3. Therefore, God does not exist.<br/>
-
+   
+      
+   
    The argument has recently been called the *reverse modal ontological argument* for atheism. Both arguments have recently been discussed in Fritz, Lo, Schmidt, Symmetry Lost: A Modal Ontological Argument for Atheism, forthcoming in *Nous*. The symmetry problem is the observation that the standard reasons offered in support of the second premise of the modal ontological argument appear to support the second premise of the reverse ontological argument. Here are some important questions to consider:
-
+   
      
    
    - Which modal logics validate the modal ontological argument?
+   
    - Which modal logics validate the reverse modal ontological argument? 
-   - Is there a principled reason to prefer one argument over the other? 
+   
+   - Is there a principled reason to prefer one argument over the other? <br/>
+   
+     
+   
+3. Another question
 
 
 
