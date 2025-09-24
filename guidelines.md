@@ -63,10 +63,40 @@ What follows is a list of sample topics that would be appropriate for a final pr
    
      
    
-3. Another question
+   
 
 
 
 
 
 **Sample Technical Projects**
+
+1. Find a modal logic that characterizes the class of finite transitive trees. Please note that the modal logic in question may not be canonical in which case the justification of completeness may require a different method.  
+
+2.  A pure modality is a finite sequence of zero or more of occurrences of  $$\Box$$ and $$\Diamond$$, e.g., $$-$$, $$\Box$$, $$\Diamond$$, $$\Box \Diamond$$, $$\Diamond \Diamond$$, $$\Diamond \Box$$,  $$\Box \Diamond \Box$$, etc. In *Modal Logic for Open Minds*, pp. 58-59, Johan van Benthem reports what H. B. Smith, a pioneer of modal logic, regarded as two plausible hypotheses in the 1930s:
+
+   
+
+   - *Distinction*. No two distinct pure modalities are provably equivalent.
+
+   - *Comparison*. Given two pure modalities \(\textsf{O}_1\) and \(\textsf{O}_2\), one entails the other.
+
+     
+
+   Prove that no normal modal logic can accommodate both hypotheses. That is, if \(\Sigma\) is a normal modal logic, then *either* two distinct pure modalities \(\textsf{O}_1\) and \(\textsf{O}_2\) are equivalent, namely,
+
+   
+   $$
+   \Sigma \vdash \textsf{O}_1\varphi  \leftrightarrow \textsf{O}_2 \varphi
+   $$
+   
+
+   *or* there are incomparable pure modalities \(\textsf{O}_1\) and \(\textsf{O}_2\) such that
+
+   
+   \[
+     \begin{array}{lll}
+     \Sigma \nvdash \textsf{O}_1 \varphi \to \textsf{O}_2 \varphi & \text{and} & \Sigma \nvdash \textsf{O}_2 \varphi \to \textsf{O}_1 \varphi.
+     \end{array}
+   \]
+   
