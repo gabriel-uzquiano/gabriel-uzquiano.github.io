@@ -78,10 +78,9 @@ What follows is a list of sample topics that would be appropriate for a final pr
    
 
    - *Distinction*. No two distinct pure modalities are provably equivalent.
-
    - *Comparison*. Given two pure modalities $$\textsf{O}_1$$ and $$\textsf{O}_2$$, one entails the other.
 
-     
+   
 
    Prove that no normal modal logic can accommodate both hypotheses. That is, if \(\Sigma\) is a normal modal logic, then *either* two distinct pure modalities  $$\textsf{O}_1$$ and $$\textsf{O}_2$$ are equivalent, namely,
 
@@ -99,6 +98,14 @@ What follows is a list of sample topics that would be appropriate for a final pr
      \Sigma \nvdash \textsf{O}_1 \varphi \to \textsf{O}_2 \varphi & \text{and} & \Sigma \nvdash \textsf{O}_2 \varphi \to \textsf{O}_1 \varphi.
      \end{array}
    $$
+   
+
+   
+
+   
+
+   
+
    
 
    
