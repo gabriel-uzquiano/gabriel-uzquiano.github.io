@@ -27,9 +27,9 @@ I received my PhD from the Department of [Linguistics](http://web.mit.edu/lingui
 
 ### work in progress
 
-[A Framework for Location](https://drive.google.com/file/d/1lMKQf3ZfhtoW9SVi7uXVl6QJczMa229_/view?usp=sharing), forthcoming in *The Journal of Philosophical Logic.*
+[A Framework for Location](https://drive.google.com/file/d/1o8NUK94Pn081YmrDj2VpnYHwKRXgeO-w/view?usp=drive_link), forthcoming in *The Journal of Philosophical Logic.*
 
-Iterative Divisibility (with Sam Roberts)
+Iterative Divisibility (Sam Roberts)
 
 
 ### courses
@@ -52,7 +52,7 @@ Online Logic Portal
 
 ### links
 
-[Curriculum Vitae](https://drive.google.com/file/d/1EfHqkKvZbRtGl61y9EzelDwwkl8Hg2jl/view?usp=sharing)
+Curriculum Vitae
 
 [Philpapers](https://philpeople.org/profiles/gabriel-uzquiano)
 
