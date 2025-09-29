@@ -117,7 +117,7 @@ $$
    
    The proof of the Deduction Theorem for the original system carries over without incident to the new system. That is, no matter what set of formulas $$\Gamma$$ may be and what formulas $$\varphi$$ and $$\psi$$ may be, $$\Gamma, \varphi \vdash^\ast \psi$$ only if $$\Gamma \vdash^\ast \varphi \to \psi$$. 
    
-   Given the Deduction Theorem for $\vdash^\ast$, we need only verify:
+   Given the Deduction Theorem for $$\vdash^\ast$$, we need only verify:
    $$
    \{\neg \varphi \to \neg \psi, \neg \varphi \to \psi\} \vdash^\ast \varphi
    $$
@@ -147,7 +147,7 @@ $$
    
    
    
-   From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we know $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. By the Deduction Theorem for the new system, $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$  and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$. 
+   From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. By the Deduction Theorem for the new system, $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$  and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$. 
    
    
    
