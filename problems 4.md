@@ -12,12 +12,16 @@
 1. Draw a possible world model that shows that the relevant formula is *not* true in *all* worlds of *all* models of the specified sort.
 
    1. $$\Diamond p \to \Box p$$ / euclidean
+
    2. $$\Box (\Box p \to p)$$ / symmetric
+
    3. $$\Diamond(p \to q) \to (\Diamond p \to \Diamond q)$$ / reflexive
+
    4. $$\Box \Box p \to \Box p$$ / transitive
+
    5. $$\Diamond p \to \Box \Diamond p$$ / reflexive and transitive
 
-   
+      <br/>
 
 2. Justify the claim that no formula of the form $$\Box \Diamond \varphi$$ is valid in all frames. 
 
