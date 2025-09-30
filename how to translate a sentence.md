@@ -15,7 +15,7 @@ js:
 
 # how to translate a sentence
 
-There is a genre of puzzles in which we are told that each of some given characters is either a **knight** or a **knave**. Now, **knights always tell the truth**: if a knight state a sentence, then the sentence is true. On the other hand, **knaves always lie**: if a knave states a sentence, then that sentence is false.  That is, if $A$ makes a statement $p$, then:
+There is a [genre of puzzles](https://philosophy.hku.hk/think/logic/knights.php) made popular by Raymond Smullyan in which we are told that each of some given characters is either a **knight** or a **knave**. Now, **knights always tell the truth**: if a knight state a sentence, then the sentence is true. On the other hand, **knaves always lie**: if a knave states a sentence, then that sentence is false.  That is, if $A$ makes a statement $p$, then:
 
 - If $A$ is a knight, then $p$ is true
 - If $A$ is a knave, then $p$ is false
