@@ -68,7 +68,7 @@
 
    
 
-   $$ \begin{array}{llll} 1 & & (\neg \neg \varphi \to \neg \varphi) \to ((\neg \neg \varphi \to \varphi) \to  \neg \varphi) & \textsf{A3}[\neg \varphi/p, \varphi/q] \\ 2 & & (\varphi \to \neg \varphi) \to (\neg \neg \varphi \to \neg \varphi) & \textsf{Prop} \ 3.5   \\ 3 & & \varphi \to \neg \varphi &  \\ 4 & & \neg \neg \varphi \to \neg \varphi & \textsf{MP} \ 2, 3 \\ 5 & & (\neg \neg \varphi \to \varphi) \to  \neg \varphi & \textsf{MP} \ 1, 4\\ 6 & & \neg \neg \varphi \to \varphi & \textsf{Prop} \ 3.3 \\ 7 & & \neg \varphi & \textsf{MP} \ 5, 6 \end{array} $$
+   $$ \begin{array}{llll} 1 & & (\neg \neg \varphi \to \neg \varphi) \to ((\neg \neg \varphi \to \varphi) \to  \neg \varphi) & \textsf{A3}[\neg \varphi/p, \varphi/q] \\ 2 & & (\varphi \to \neg \varphi) \to (\neg \neg \varphi \to \neg \varphi) & \textsf{Prop} \ 4.6   \\ 3 & & \varphi \to \neg \varphi &  \\ 4 & & \neg \neg \varphi \to \neg \varphi & \textsf{MP} \ 2, 3 \\ 5 & & (\neg \neg \varphi \to \varphi) \to  \neg \varphi & \textsf{MP} \ 1, 4\\ 6 & & \neg \neg \varphi \to \varphi & \textsf{Prop} \ 4.4 \\ 7 & & \neg \varphi & \textsf{MP} \ 5, 6 \end{array} $$
 
 
 
@@ -76,16 +76,16 @@
 
    *Hint: Please feel free to make use of the Deduction Theorem and whatever propositions you may find helpful from the notes.*&nbsp;
 
-   By $$\textsf{Prop. 3.7}$$, we know that $$\Gamma, \neg \varphi$$ is inconsistent only if $$\Gamma \vdash \varphi$$. But if $$\Gamma, \varphi$$ is inconsistent, $$\Gamma, \varphi \vdash \bot$$, and, by the Deduction Theorem, $$\Gamma \vdash \varphi \to \bot$$. Given $$\textsf{MP}$$, we have $$\Gamma \vdash \bot$$.
+   By $$\textsf{Prop. 5.1}$$, we know that $$\Gamma, \neg \varphi$$ is inconsistent only if $$\Gamma \vdash \varphi$$. But if $$\Gamma, \varphi$$ is inconsistent, $$\Gamma, \varphi \vdash \bot$$, and, by the Deduction Theorem, $$\Gamma \vdash \varphi \to \bot$$. Given $$\textsf{MP}$$, we have $$\Gamma \vdash \bot$$.
    
    Here is a more explicit argument.
    
-   If $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are both inconsistent, then $$\Gamma, \varphi \vdash \bot$$ and $$\Gamma, \neg \varphi \vdash \bot$$. We now argue that $$\bot$$ is derivable from $$\Gamma$$ alone, that is, $$\Gamma \vdash \bot$$. By the Deduction Theorem, we have $$\Gamma \vdash \varphi \to \bot$$ and, by $$\textsf{Prop. 3.5}$$ and $$\textsf{MP}$$, we have $$\Gamma \vdash \neg \bot \to \neg \varphi$$. Likewise, by another application of the Deduction theorem, we have $$\Gamma \vdash \neg \varphi \to \bot$$, and by $$\textsf{Prop. 3.5}$$ and MP, we have $$\Gamma \vdash \neg \bot \to \neg \neg \varphi$$. In combination with a suitable instance of $$\textsf{A3}$$, we have that $$\Gamma \vdash \bot$$.
+   If $$\Gamma, \varphi$$ and $$\Gamma, \neg \varphi$$ are both inconsistent, then $$\Gamma, \varphi \vdash \bot$$ and $$\Gamma, \neg \varphi \vdash \bot$$. We now argue that $$\bot$$ is derivable from $$\Gamma$$ alone, that is, $$\Gamma \vdash \bot$$. By the Deduction Theorem, we have $$\Gamma \vdash \varphi \to \bot$$ and, by $$\textsf{Prop. 4.6}$$ and $$\textsf{MP}$$, we have $$\Gamma \vdash \neg \bot \to \neg \varphi$$. Likewise, by another application of the Deduction theorem, we have $$\Gamma \vdash \neg \varphi \to \bot$$, and by $$\textsf{Prop. 4.6}$$ and MP, we have $$\Gamma \vdash \neg \bot \to \neg \neg \varphi$$. In combination with a suitable instance of $$\textsf{A3}$$, we have that $$\Gamma \vdash \bot$$.
    
    We may now outline a derivation of $$\bot$$ from $$\Gamma$$ alone:
 
 $$
-\begin{array}{llll} 1 & & \varphi \to \bot & \Gamma, \varphi \vdash \bot, \textsf{DT} \\ 2 & & (\varphi \to \bot) \to (\neg \bot \to \neg \varphi) & \textsf{Prop} \ 3.5   \\ 3 & & \neg \bot \to \neg \varphi & \textsf{MP} \ 1, 2 \\ 4 & & \neg \varphi \to \bot & \Gamma, \neg \varphi \vdash \bot, \textsf{DT} \\ 5 & & (\neg \varphi \to \bot) \to  (\neg \bot \to \neg \neg \varphi) & \textsf{Prop} \ 3.5 \\ 6 & & \neg \bot \to \neg \neg \varphi & \textsf{MP} \ 4, 5 \\ 7 & & (\neg \bot \to \neg \neg \varphi) \to ((\neg \bot \to \neg \varphi) \to \bot) & \textsf{A3}[\bot/p, \neg \varphi/q] \\ 8 & & (\neg \bot \to \neg \varphi) \to \bot & \textsf{MP} \ 6, 7 \\9 & & \bot & \textsf{MP} \ 3, 8\end{array}
+\begin{array}{llll} 1 & & \varphi \to \bot & \Gamma, \varphi \vdash \bot, \textsf{DT} \\ 2 & & (\varphi \to \bot) \to (\neg \bot \to \neg \varphi) & \textsf{Prop} \ 4.6   \\ 3 & & \neg \bot \to \neg \varphi & \textsf{MP} \ 1, 2 \\ 4 & & \neg \varphi \to \bot & \Gamma, \neg \varphi \vdash \bot, \textsf{DT} \\ 5 & & (\neg \varphi \to \bot) \to  (\neg \bot \to \neg \neg \varphi) & \textsf{Prop} \ 4.6 \\ 6 & & \neg \bot \to \neg \neg \varphi & \textsf{MP} \ 4, 5 \\ 7 & & (\neg \bot \to \neg \neg \varphi) \to ((\neg \bot \to \neg \varphi) \to \bot) & \textsf{A3}[\bot/p, \neg \varphi/q] \\ 8 & & (\neg \bot \to \neg \varphi) \to \bot & \textsf{MP} \ 6, 7 \\9 & & \bot & \textsf{MP} \ 3, 8\end{array}
 $$
 
 
