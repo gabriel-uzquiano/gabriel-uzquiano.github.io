@@ -115,9 +115,9 @@ $$
    
    We now set out to show that all substitution instances of $$\textsf{A3}$$ are theorems of the new system. That is, $$\Gamma \vdash^\ast \textsf{A3}[\psi/p, \varphi/q]$$ for all $$\psi$$ and $$\varphi$$. 
    
-   The proof of the Deduction Theorem for the original system carries over without incident to the new system. That is, no matter what set of formulas $$\Gamma$$ may be and what formulas $$\varphi$$ and $$\psi$$ may be, $$\Gamma, \varphi \vdash^\ast \psi$$ only if $$\Gamma \vdash^\ast \varphi \to \psi$$. 
+   The proof of the Deduction Theorem for the original system carries over the new system since it relied only on substitution instances of $$\textsf{A1}$$ and $$\textsf{A2}$$ . So, no matter what set of formulas $$\Gamma$$ may be and what formulas $$\varphi$$ and $$\psi$$ may be, $$\Gamma, \varphi \vdash^\ast \psi$$ only if $$\Gamma \vdash^\ast \varphi \to \psi$$. 
    
-   Given the Deduction Theorem for $$\vdash^\ast$$, we need only verify:
+   The Deduction Theorem for $$\vdash^\ast$$ helps reframe our target. In order to make sure that a substitution instance of $$\textsf{A3}$$ is provable in the new system, we need only verify:
    $$
    \{\neg \varphi \to \neg \psi, \neg \varphi \to \psi\} \vdash^\ast \varphi
    $$
@@ -125,7 +125,7 @@ $$
    $$
    \{\neg \varphi \to \neg \psi, \neg \varphi \to \psi\} \vdash^\ast \psi \to \varphi
    $$
-   Given the Deduction Theorem, we may appeal to a formulation of $\textsf{Prop 3.1}$ for $\vdash^\ast$:
+   Given the Deduction Theorem, we have $$\textsf{Prop 4.2}$$ for $$\vdash^\ast$$:
    $$
    \vdash^\ast (\varphi \to \psi) \to ((\psi \to \chi) \to (\varphi \to \chi))
    $$
@@ -138,8 +138,9 @@ $$
    $$
    \vdash^\ast (\neg \varphi \to \varphi) \to \varphi
    $$
-   In the meantime, here is a helpful lemma, whose justification is completely parallel to that of $$\textsf{Prop 3.6}$$:
    
+   
+   In the meantime, here is a helpful lemma, whose justification is completely parallel to that of $$\textsf{Prop 4.7}$$:
    
    $$
    \vdash^\ast \varphi \to ( \neg \varphi \to \bot) \tag{i}
@@ -147,7 +148,9 @@ $$
    
    
    
-   From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. By the Deduction Theorem for the new system, $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$  and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$. 
+   From $$\textsf{A1}[\neg \varphi/p,\neg \bot/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \varphi \to (\neg \bot \to \neg \varphi)$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \neg \bot \to \neg \varphi$$. So, by $$\textsf{A3}^\star[\bot/p,\varphi/q]$$, we have $$\{\varphi, \neg \varphi\} \vdash  \varphi \to \bot$$ and $$\{\varphi, \neg \varphi\} \vdash^\ast \bot$$. 
+   
+   Two applications of the Deduction Theorem for the new system deliver $$\{\varphi\} \vdash^\ast \neg \varphi \to \bot$$ , first, and $$\vdash^\ast \varphi \to (\neg \varphi \to \bot)$$ later. 
    
    
    
