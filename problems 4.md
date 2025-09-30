@@ -23,6 +23,8 @@
 
       <br/>
 
+   
+
 2. Justify the claim that no formula of the form $$\Box \Diamond \varphi$$ is valid in all frames. 
 
    *Hint. You should be able to find a model in which all such formulas are in fact false at some world.*
