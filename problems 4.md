@@ -12,18 +12,16 @@
 1. Draw a possible world model that shows that the relevant formula is *not* true in *all* worlds of *all* models of the specified sort.
 
    1. $$\Diamond p \to \Box p$$ / euclidean
-
    2. $$\Box (\Box p \to p)$$ / symmetric
-
    3. $$\Diamond(p \to q) \to (\Diamond p \to \Diamond q)$$ / reflexive
-
    4. $$\Box \Box p \to \Box p$$ / transitive
-
    5. $$\Diamond p \to \Box \Diamond p$$ / reflexive and transitive
 
-      
+2. Justify the claim that no formula of the form $$\Box \Diamond \varphi$$ is valid in all frames. 
 
-2. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
+   *Hint. You should be able to find a model in which all such formulas are in fact false at some world.*
+
+3. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
 
    Justify the claims below:
 
@@ -33,21 +31,15 @@
 
       
 
-3. Find a modal formula to define the class of *identity frames*, that is, fames of the form $$(W, R)$$, where $$R = \{(u,u): u \in W\}$$.
+4. Find a modal formula to define the class of *identity frames*, that is, fames of the form $$(W, R)$$, where $$R = \{(u,u): u \in W\}$$.
 
-   
-
-4. Consider the rule of inference:
+5. Consider the rule of inference:
    $$
-   \Box \varphi \to \Box \psi / \varphi \to \psi
+   \Box \varphi / \varphi
    $$
-   Justify the claims below:
+   Justify the claim that it preserves validity with respect to the class of *all* frames.
 
-   1. The rule above preserves validity with respect to the class of *all* frames.
-   
-      
-   
-   2. The rule above does *not* preseve validity with respect to the class of all *reflexive* frames.
+   *Hint. Take the contrapositive. That is, you can argue that if $$\varphi$$ is not valid in all frames, then neither is $$\Box \varphi$$.*
 
 
 

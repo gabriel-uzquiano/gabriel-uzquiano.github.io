@@ -33,7 +33,13 @@
 
       
 
-2. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
+2. Justify the claim that no formula of the form $$\Box \Diamond \varphi$$ is valid in all frames. 
+
+   *Hint. You should be able to find a model in which all such formulas are in fact false at some world.*
+
+   Set $$W = \{w_1, w_2\}$$ and $$R = \{(w_1, w_2)\}$$. Because $$w_2$$ is a *dead end* in the model, we know that every formula of the form $$\Diamond \varphi$$ is false at $$w_2$$ in *every model based on that frame.* So, $$\Box \Diamond \varphi$$ is never true at $$w_1$$, and we conclude that the formula is *not* valid in the frame just now given.
+
+3. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
 
    Justify the claims below:
 
@@ -55,7 +61,7 @@
 
       
 
-3. Find a modal formula to define the class of *identity frames*, that is, fames of the form $$(W, R)$$, where $$R = \{(u,u): u \in W\}$$.
+4. Find a modal formula to define the class of *identity frames*, that is, fames of the form $$(W, R)$$, where $$R = \{(u,u): u \in W\}$$.
 
    The formula $$p \leftrightarrow \Box p$$ defines the class of identity frames.
 
@@ -71,41 +77,31 @@
 
    
 
-4. Consider the rule of inference:
+5. Consider the rule of inference:
    $$
-   \Box \varphi \to \Box \psi / \varphi \to \psi
+   \Box \varphi / \varphi 
    $$
    Justify the claims below:
 
-   1. The rule above preserves validity with respect to the class of *all* frames.
+   
 
-      We target the contrapositive.
+   The rule above preserves validity with respect to the class of *all* frames.
 
-      If $$\varphi \to \psi$$ is not valid in all frames, then *neither* is $$\Box \varphi \to \Box \psi$$ valid in all frames.
+   We target the contrapositive.
 
-      Suppose $$(W, R, V)$$ is a model based on a frame $$(W,R)$$ such that for some $$w \in W$$, $$(W, R, V), w \nVdash \varphi \to \psi$$. Fix such a world $$w\in W$$. We may now specify a model $$(W^\ast, R^\ast, V^\ast)$$ such that for some $$w^\ast \in W^\ast$$, $$(W^\ast, R^\ast, V^\ast) \nVdash \Box \varphi \to \Box \psi$$. Define:
+   If $$\varphi$$ is not valid in all frames, then *neither* is $$\Box \varphi$$ valid in all frames.
 
-      $$W^\ast = W \cup \{@\}$$, where $$@ \notin W$$.
+   Suppose $$(W, R, V)$$ is a model based on a frame $$(W,R)$$ such that for some $$w \in W$$, $$(W, R, V), w \nVdash \varphi$$. Fix such a world $$w\in W$$. We may now specify a model $$(W^\ast, R^\ast, V^\ast)$$ such that for some $$w^\ast \in W^\ast$$, $$(W^\ast, R^\ast, V^\ast) \nVdash \Box \varphi$$. Define:
 
-      $$R^\ast = R \cup \{(@, w)\}$$
+   $$W^\ast = W \cup \{@\}$$, where $$@ \notin W$$.
 
-      $$V^\ast (p) = V(p)$$ for all propositional variable $$p$$.
+   $$R^\ast = R \cup \{(@, w)\}$$
 
-      Since $$@$$ has access to $$w$$ but to no other world at $$W^\ast$$ and $$(W^\ast, R^\ast, V^\ast), w \Vdash \varphi$$, we have $$(W^\ast, R^\ast, V^\ast), @ \Vdash \Box \varphi$$. Yet, $$(W^\ast, R^\ast, V^\ast), @ \Vdash \Box \psi$$, since $$(W^\ast, R^\ast, V^\ast), w \nVdash  \psi$$. It follows that $$(W^\ast, R^\ast, V^\ast), @ \nVdash \Box \varphi \to \Box \psi$$.
+   $$V^\ast (p) = V(p)$$ for all propositional variable $$p$$.
 
-   2. The rule above does *not* preseve validity with respect to the class of all *reflexive* frames.
+   Since $$@$$ has access to $$w$$ but to no other world at $$W^\ast$$ and $$(W^\ast, R^\ast, V^\ast), w \nVdash \varphi$$, we have $$(W^\ast, R^\ast, V^\ast), @ \nVdash \Box \varphi$$. It follows that $$(W^\ast, R^\ast, V^\ast), @ \nVdash \Box \varphi$$.
 
-      We let $$\varphi$$ be $$p \wedge \Diamond \neg p$$ and let $$\psi$$ be $$\bot$$.
-
-      $$\Box (p \wedge \Diamond \neg p) \to \Box \bot$$ is valid in every reflexive frame.
-
-      Let $$(W, R, V)$$ be a model based on a reflexive frame $$(W, R)$$. We argue first that for all $$w \in W$$, $$(W, R, V), w \nVdash \Box (p \wedge \Diamond \neg p)$$. For let $$w \in W$$ be such that $$(W, R, V), w \vDash \Box (p \wedge \Diamond \neg p)$$. Since $$R$$ is reflexive on $$W$$, it follows that $$Rww$$, which means that $$(W, R, V), w \vDash p \wedge \Diamond \neg p$$. So, $$(W, R, V), w \vDash \Diamond \neg p$$, which means that there is some $$u \in W$$ such that $$Rwu$$ and $$(W, R, V), u \Vdash \neg p$$ and $$(W, R, V), u \nvDash p$$. But since $$Rwu$$ and $$(W, R, V), w \vDash \Box (p \wedge \Diamond \neg p)$$, we have that $$(W, R, V), u \vDash p \wedge \Diamond \neg p$$ and $$(W, R, V), u \vDash p$$. Contradiction.
-
-      $$(p \wedge \Diamond \neg p) \to \bot$$ is *not* valid in every reflexive frame.
-
-      Consider the model $$(W, R, V)$$ based on a reflexive frame $$(W, R)$$ depicted below:
-
-      ![4.1.c](https://p.ipic.vip/bap6l1.png)
+   
 
    
 
