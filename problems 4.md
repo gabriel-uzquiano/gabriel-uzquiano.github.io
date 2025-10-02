@@ -17,7 +17,7 @@
    4. $$\Box \Box p \to \Box p$$ / transitive
    5. $$\Diamond p \to \Box \Diamond p$$ / reflexive and transitive
 
-   
+   <br/>
 
 2. Justify the claim that no formula of the form $$\Box \Diamond \varphi$$ is valid in all frames. 
 
