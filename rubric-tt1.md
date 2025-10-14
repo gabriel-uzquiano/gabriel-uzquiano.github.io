@@ -47,10 +47,10 @@ To avoid a double penalty, we will evaluate the argument they have translated ..
 
 Deduct 6 pts (out of 10) if the student $$\dots$$
 - mischaracterized a *valid* argument as invalid and provided an incorrect assignment.
-- mischaracterized an *invalid* argument as valid and provided a proof with significant errors.
+- mischaracterized an *invalid* argument as valid and provided a proof with major errors.
 
 Deduct 4 pts (out of 10) if the student $$\dots$$
-- characterized a *valid* argument as valid, but provided a proof with significant errors.
+- characterized a *valid* argument as valid, but provided a proof with major errors.
 - characterized an *invalid* argument as invalid but provided a clearly incorrect assignment
 
 Deduct 2 pts (out of 10) if the student $$\dots$$
