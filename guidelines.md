@@ -1,9 +1,18 @@
+---
+​---
+
+
+​---
+
+---
+
+
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 
-
-**Guidelines for Final Project**
+## Guidelines for Final Project
 
 The final project accounts for $$30 \%$$ of the grade for this course. It will proceed in two stages.
 
@@ -17,7 +26,7 @@ The final project accounts for $$30 \%$$ of the grade for this course. It will p
 
 What follows is a list of sample topics that would be appropriate for a final project for the course. The list is by no means exhaustive. Please feel free to find an alternative project in the area, and I would be happy to discuss it with you. In the meantime, I hope to add more suggestions as we cover more ground.
 
-**Sample Philosophical Projects**
+### Sample Philosophical Projects
 
 1. What is the modal logic of metaphysical necessity? Both $$\textsf{S4}$$ and  $$\textsf{S5}$$ have been proposed as candidates, but they remain  controversial.
 
@@ -69,7 +78,7 @@ What follows is a list of sample topics that would be appropriate for a final pr
 
 
 
-**Sample Technical Projects**
+### Sample Technical Projects
 
 1. Find a modal logic that characterizes the class of finite transitive trees. Please note that the modal logic in question may not be canonical in which case the justification of completeness may require a different method.  
 
@@ -86,19 +95,19 @@ What follows is a list of sample topics that would be appropriate for a final pr
    Prove that no normal modal logic can accommodate both hypotheses. That is, if \(\Sigma\) is a normal modal logic, then *either* two distinct pure modalities  $$\textsf{O}_1$$ and $$\textsf{O}_2$$ are equivalent, namely,
 
 
-   $$
+$$
       \Sigma \vdash \textsf{O}_1\varphi  \leftrightarrow \textsf{O}_2 \varphi
-   $$
+$$
 
 
       *or* there are incomparable pure modalities $$\textsf{O}_1$$ and $$\textsf{O}_2$$ such that
 
 
-   $$
+$$
    \begin{array}{lll}
         \Sigma \nvdash \textsf{O}_1 \varphi \to \textsf{O}_2 \varphi & \text{and} & \Sigma \nvdash \textsf{O}_2 \varphi \to \textsf{O}_1 \varphi.
         \end{array}
-   $$
+$$
 
    
 
