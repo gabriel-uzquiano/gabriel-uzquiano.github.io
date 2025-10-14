@@ -88,14 +88,10 @@ What follows is a list of sample topics that would be appropriate for a final pr
      
 
    Prove that no normal modal logic can accommodate both hypotheses. That is, if \(\Sigma\) is a normal modal logic, then *either* two distinct pure modalities  $$\textsf{O}_1$$ and $$\textsf{O}_2$$ are equivalent, namely,
-
-
-$$
-      \Sigma \vdash \textsf{O}_1\varphi  \leftrightarrow \textsf{O}_2 \varphi
-$$
-
-
-      *or* there are incomparable pure modalities $$\textsf{O}_1$$ and $$\textsf{O}_2$$ such that
+   $$
+   \Sigma \vdash \textsf{O}_1\varphi  \leftrightarrow \textsf{O}_2 \varphi
+   $$
+    *or* there are incomparable pure modalities $$\textsf{O}_1$$ and $$\textsf{O}_2$$ such that
 
 
 $$
