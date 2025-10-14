@@ -55,7 +55,6 @@ Deduct 4 pts (out of 10) if the student $$\dots$$
 
 Deduct 2 pts (out of 10) if the student $$\dots$$
 - characterized a *valid* argument as valid, but provided a proof with minor errors.
-
 - characterized an *invalid* argument as invalid but the assignment was a near miss
 
 **No credit will be given to questions *without* an answer.** 
