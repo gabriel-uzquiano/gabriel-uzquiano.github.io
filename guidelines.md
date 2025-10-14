@@ -1,18 +1,13 @@
 ---
-​---
 
-
-​---
 
 ---
-
-
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 
-## Guidelines for Final Project
+### Guidelines for Final Project
 
 The final project accounts for $$30 \%$$ of the grade for this course. It will proceed in two stages.
 
