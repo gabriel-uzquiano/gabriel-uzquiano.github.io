@@ -234,9 +234,9 @@ One approach to the problem is to observe that there is no room for the distinct
 
 | Extended Simple                                              | Multilocated Simple                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://plato.stanford.edu/entries/location-mereology/figure05a.svg" alt="Figure 5a diagram: link to extended description below" style="zoom:150%;" /> | <img src="https://plato.stanford.edu/entries/location-mereology/figure05b.svg" alt="img" style="zoom:150%;" /> |
+| <img src="https://plato.stanford.edu/entries/location-mereology/figure05a.svg" alt="Figure 5a diagram: link to extended description below" style="zoom:200%;" /> | <img src="https://plato.stanford.edu/entries/location-mereology/figure05b.svg" alt="img" style="zoom:200%;" /> |
 
-While $o_1$ is an extended simple, $o_2$ is a multilocated simple: $o_2$ is *exactly located* at $r_3$ and $r_4$. This is the spatial counterpart of the contrast between the mereological and the locational model of endurance. The problem is that we lack the machinery to make sense of that distinction, since the patterns of exemplification of the part whole relation and that of weak location appears to be the same in both cases:
+While $$o_1$$ is an extended simple, $$o_2$$ is a multilocated simple: $$o_2$$ is *exactly located* at $$r_3$$ and $$r_4$$. This is the spatial counterpart of the contrast between the mereological and the locational model of endurance. The problem is that we lack the machinery to make sense of that distinction, since the patterns of exemplification of the part whole relation and that of weak location appears to be the same in both cases:
 
 | Extended Simple                                              | Multilocated Simple                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -245,7 +245,7 @@ While $o_1$ is an extended simple, $o_2$ is a multilocated simple: $o_2$ is *exa
 
 #### Free of
 
-Weak location is elucidated in terms of the free of relation: for me to be weakly located in the room is for the room not to be free of me. Parsons conceives of the free of relation as a binary relation between a location and an occupant, but we may be able to do better if we take the free of relation as a perfectly general topic-neutral relation: $\alpha$ is free of $\beta$, which we will symbolize $\alpha \ \sharp \ \beta$. We use Greek variables as placeholders for variables over occupants and locations. For example:
+Weak location is elucidated in terms of the free of relation: for me to be weakly located in the room is for the room not to be free of me. Parsons conceives of the free of relation as a binary relation between a location and an occupant, but we may be able to do better if we take the free of relation as a perfectly general topic-neutral relation: $$\alpha$$ is free of $$\beta$$, which we will symbolize $$\alpha \ \sharp \ \beta$$. We use Greek variables as placeholders for variables over occupants and locations. For example:
 
 - The room is not free of me. Nor am I free of the room.
 - Neither the statue nor the clay is free of each other.
@@ -285,7 +285,7 @@ We do not even have the converse when we restrict attention to locations. In a r
 
 **Weak Location**
 
-Weak location obtains between an occupant $$x$$ and a location $r$.
+Weak location obtains between an occupant $$x$$ and a location $$r$$.
 
 For $$x$$ to be *weakly located* at $$r$$, $$x @_\circ r$$, is for $$x$$ to not be free of $$r$$. That is, $$x @_\circ r$$ if, and only if, $$\neg r \ \sharp \ x$$.
 
@@ -293,23 +293,23 @@ For $$x$$ to be *weakly located* at $$r$$, $$x @_\circ r$$, is for $$x$$ to not 
 
 We now define a relation of *weak entire location*:
 
-$$ x@^{-}_< R := x @_\circ R \wedge \forall S (x @_\circ S \to \neg R \  \sharp \ S)  $$
+$$ x@^{-}_< r := x @_\circ r \wedge \forall s (x @_\circ s \to \neg r \  \sharp \ s)  $$
 
 That opens the way for a distinction between the cases we discussed above:
 
 | Extended Simple                                              | Multilocated Simple                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://plato.stanford.edu/entries/location-mereology/figure05a.svg" alt="img" style="zoom:150%;" /> | <img src="https://plato.stanford.edu/entries/location-mereology/figure05b.svg" alt="img" style="zoom:150%;" /> |
+| <img src="https://plato.stanford.edu/entries/location-mereology/figure05a.svg" alt="img" style="zoom:200%;" /> | <img src="https://plato.stanford.edu/entries/location-mereology/figure05b.svg" alt="img" style="zoom:200%;" /> |
 
 One could perhaps suggest that $$o_1$$ is weakly entirely located in *both* $$r_1$$ and $$r_2$$ partly because no region that overlaps $$r_2$$ is free of $$r_1$$ and vice versa. On the other hand, $$o_2$$ is not weakly entirely located in either $$r_3$$ or $$r_4$$ partly because the regions in question are free of each other.
 
 **Containment**
 
-In cases of multilocation, we may take the very occupant to partly explain the link between the relevant locations. We write that $x$ is *contained* in $$r$$ if, and only if, $$x$$ is weakly located at $$s$$ and only regions that are not free of $$r$$ via $$x$$.
+In cases of multilocation, we may take the very occupant to partly explain the link between the relevant locations. We write that $$x$$ is *contained* in $$r$$ if, and only if, $$x$$ is weakly located at $$s$$ and only regions that are not free of $$r$$ via $$x$$.
 
 $$ x@_\prec r := x @_\circ r \wedge \forall s(x @_\circ s\to \neg r \  \sharp_{x} \ s) $$
 
-Part of the reason $o_1$ is contained in $r_1$ and $r_2$ is that is that they are not free of each other via $o_1$, whereas $r_3$ and $r_4$ are free of each other via $o_2$.
+Part of the reason $$o_1$$ is contained in $$r_1$$ and $$r_2$$ is that is that they are not free of each other via $$o_1$$, whereas $$r_3$$ and $$r_4$$ are free of each other via $$o_2$$.
 
 **Perfect Containment**
 
