@@ -273,7 +273,7 @@ To be free of something is *not just* to ...
 
 We take the free of relation as basic and governed by three main axioms:
 
-$$ \begin{align} \neg \alpha \ \sharp \ \alpha & & \text{Irreflexivity}\\ \alpha \ \sharp \ \beta \to \beta \ \sharp \ \alpha & & \text{Symmetry}\\ \alpha \leq \beta \to \forall \gamma(\neg \gamma \ \sharp \ \alpha \to \neg \gamma \ \# \ \beta) & & \text{Monotonicity} \end{align} $$
+$$ \begin{align} \neg \alpha \ \sharp \ \alpha & & \text{Irreflexivity}\\ \alpha \ \sharp \ \beta \to \beta \ \sharp \ \alpha & & \text{Symmetry}\\ \alpha \leq \beta \to \forall \gamma(\neg \gamma \ \sharp \ \alpha \to \neg \gamma \ \sharp \ \beta) & & \text{Monotonicity} \end{align} $$
 
 More tentatively:
 
