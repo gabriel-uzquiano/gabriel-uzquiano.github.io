@@ -3,6 +3,8 @@
 
 ​---
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 ---
 
@@ -271,15 +273,15 @@ To be free of something is *not just* to ...
 
 We take the free of relation as basic and governed by three main axioms:
 
-$$ \begin{align} \neg \alpha \ \# \ \alpha & & \text{Irreflexivity}\\ \alpha \ \# \ \beta \to \beta \ \# \ \alpha & & \text{Symmetry}\\ \alpha \leq \beta \to \forall \gamma(\neg \gamma \ \# \ \alpha \to \neg \gamma \ \# \ \beta) & & \text{Monotonicity} \end{align} $$
+$$ \begin{align} \neg \alpha \ \sharp \ \alpha & & \text{Irreflexivity}\\ \alpha \ \sharp \ \beta \to \beta \ \sharp \ \alpha & & \text{Symmetry}\\ \alpha \leq \beta \to \forall \gamma(\neg \gamma \ \sharp \ \alpha \to \neg \gamma \ \# \ \beta) & & \text{Monotonicity} \end{align} $$
 
 More tentatively:
 
-$$ \begin{align} \neg \gamma \ \# \ \alpha + \beta \to \neg \gamma \ \# \ \alpha \vee \neg \gamma \ \# \ \beta & & \text{Delegation} \end{align} $$
+$$ \begin{align} \neg \gamma \ \sharp \ \alpha + \beta \to \neg \gamma \ \sharp \ \alpha \vee \neg \gamma \ \sharp \ \beta & & \text{Delegation} \end{align} $$
 
 One important consequence:
 
-- If $$\alpha \ \# \ \beta$$, then $$\alpha$$ and $$\beta$$ have no parts in common.
+- If $$\alpha \ \sharp \ \beta$$, then $$\alpha$$ and $$\beta$$ have no parts in common.
 
 We do not generally have the converse:
 
@@ -294,7 +296,7 @@ We do not even have the converse when we restrict attention to locations. In a r
 
 Weak location obtains between an occupant $$x$$ and a location $r$.
 
-For $$x$$ to be *weakly located* at $$r$$, $$x @_\circ r$$, is for $$x$$ to not be free of $$r$$. That is, $$x @_\circ r$$ if, and only if, $$\neg r \ \# \ x$$.
+For $$x$$ to be *weakly located* at $$r$$, $$x @_\circ r$$, is for $$x$$ to not be free of $$r$$. That is, $$x @_\circ r$$ if, and only if, $$\neg r \ \sharp \ x$$.
 
 Monotonicity and Delegation deliver:
 
