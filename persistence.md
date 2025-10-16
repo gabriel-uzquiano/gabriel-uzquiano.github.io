@@ -172,7 +172,7 @@ That is, $$x$$ *is wholly located at* $$r$$ if every part of $$x$$ is weakly loc
 
 This relation is not to be confused with *entire location*. Consider the diagram below in which $$o_1$$ is a scattered simple without proper parts. That is, $$o_1$$ is itself the only part of $$o_1$$.
 
-<img src="https://plato.stanford.edu/archives/fall2018/entries/location-mereology/index-fig6a.png" alt="index-fig6a" style="zoom:50%;" />
+<img src="https://plato.stanford.edu/archives/fall2018/entries/location-mereology/index-fig6a.png" alt="index-fig6a" style="zoom:30%;" />
 
 Now:
 
