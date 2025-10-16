@@ -7,7 +7,7 @@
 
 # Persistence
 
-Let us say that something **persists**, iff, somehow or other, it exists at various times; this is the neutral word. 
+Let us say that something **persists**, iff, somehow or other, it exists at various times.
 
 - I have *existed at/been present at/occupied* times within the 20th century
 - I have *existed at/been present at/occupied* times within the 21st century
