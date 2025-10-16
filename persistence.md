@@ -298,10 +298,6 @@ Weak location obtains between an occupant $$x$$ and a location $r$.
 
 For $$x$$ to be *weakly located* at $$r$$, $$x @_\circ r$$, is for $$x$$ to not be free of $$r$$. That is, $$x @_\circ r$$ if, and only if, $$\neg r \ \sharp \ x$$.
 
-Monotonicity and Delegation deliver:
-
-$$ \begin{align} x \leq y \to \forall R (x @_{\circ} R \to y @_{\circ} R) & & \text{Inheritance}\\ R \leq S \to \forall x (x @_{\circ} R \to y @_{\circ} S) & & \text{Locational Inheritance}\\ x @_\circ R_1 + R_2 \to x @_\circ R_1 \vee x @_\circ R_2 & & \text{Delegation} \end{align} $$
-
 **Weak Entire Location**
 
 We now define a relation of *weak entire location*:
