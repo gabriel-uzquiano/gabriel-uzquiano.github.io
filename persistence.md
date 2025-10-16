@@ -5,9 +5,7 @@
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-# Special Session
-
-## Persistence
+# Persistence
 
 Let us say that something **persists**, iff, somehow or other, it exists at various times; this is the neutral word. 
 
@@ -19,7 +17,7 @@ So, I persist through time.
 
 Something **perdures** iff it persists by having different temporal parts, or stages, at different times, though no one part of it is wholly present at more than one time; whereas it **endures** iff it persists by being wholly present at more than one time. (Lewis 1986: 202)
 
-### Perdurance
+## Perdurance
 
 Perdurance models persistence after spatial extension:
 
@@ -46,7 +44,7 @@ To persist, in sum, is to have temporal parts exactly located at, and only at, c
 
 By times, we may mean both time instants and extended time intervals.
 
-### Endurance
+## Endurance
 
 Something **endures** iff it persists by being wholly present at more than one time.
 
@@ -172,9 +170,9 @@ x @_\blacktriangleleft r := \forall y (y \leq x \to y @_\circ r)
 $$
 That is, $$x$$ *is wholly located at* $$r$$ if every part of $$x$$ is weakly located at $$r$$.
 
-This relation is not to be confused with *entire location*. Consider the diagram below in which $o_1$ is a scattered simple without proper parts. That is, $o_1$ is itself the only part of $o_1$.
+This relation is not to be confused with *entire location*. Consider the diagram below in which $$o_1$$ is a scattered simple without proper parts. That is, $$o_1$$ is itself the only part of $$o_1$$.
 
-<img src="https://plato.stanford.edu/archives/fall2018/entries/location-mereology/index-fig6a.png" alt="index-fig6a" style="zoom:25%;" />
+<img src="https://plato.stanford.edu/archives/fall2018/entries/location-mereology/index-fig6a.png" alt="index-fig6a" style="zoom:50%;" />
 
 Now:
 
