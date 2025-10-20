@@ -38,7 +38,9 @@
 
    In other words, $$\sigma$$ scans a formula for subformulas of the form $$\Box \psi$$ and deletes the first occurrence of a modal operator in those formulas. Thus for example $$\sigma(\Box p \to \Box \Box p)$$ is just the formula: $$p \to \Box p$$, and $$\sigma(\Box p \to \Diamond p)$$, which is $$\sigma(\Box p \to \neg \Box \neg p)$$ becomes the formula: $$p \to \neg \neg p$$.
 
-    When $$\Sigma$$ is $$\textsf{K}$$ or $$\textsf{KD}$$, use an induction on the length of proofs in $$\Sigma$$ to prove:
+    When $$\Sigma$$ is $$\textsf{K}$$ or $$\textsf{KD}$$, use an induction on the length of proofs in $$\Sigma$$ to prove:<br/>
+   
+   
    $$
    \begin{array}{llll}
          \text{if} &  \vdash_{\Sigma} \varphi, & \text{then} &  \vdash_{\Sigma} \sigma(\varphi)\\
@@ -48,7 +50,7 @@
    
    You will need a different strategy for $$\textsf{KT}$$.
 
-<br/>  
+<br/>
 
 2. Prove $$\textsf{KB4}$$ is a *proper* extension of $$\textsf{K5}$$. That is, 
 
