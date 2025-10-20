@@ -48,9 +48,7 @@
    $$
    
    
-   You will need a different strategy for $$\textsf{KT}$$.
-
-<br/>
+   You will need a different strategy for $$\textsf{KT}$$.<br/>
 
 2. Prove $$\textsf{KB4}$$ is a *proper* extension of $$\textsf{K5}$$. That is, 
 
