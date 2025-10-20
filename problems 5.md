@@ -46,11 +46,9 @@
    $$
    
    
-   You will need a *different strategy* for $$\textsf{KT}$$.
+   You will need a different strategy for $$\textsf{KT}$$.
 
 
-
-​      
 
 <br/>  
 
@@ -62,9 +60,9 @@
 
    2. Not all theorems of $$\textsf{KB4}$$ are theorems of $$\textsf{K5}$$.<br/>
 
-      <br/>
-
       
+
+   <br/>
 
 3. Prove that $$\textsf{K5}$$ proves the *necessitation* of every axiom of $$\textsf{KB4}$$. That is:
 
@@ -76,7 +74,10 @@
 
    2. $$\vdash_{\textsf{K5}} \Box (\Box \varphi \to \Box \Box \varphi)$$<br/>
 
-      
+   
+   **Hint**
+   
+   One option is to outline proof schemas for $$\textsf{B}$$ and $$\textsf{4}$$ respectively, but another option is to reason semantically by exploiting the completeness of $$\textsf{K5}$$ with respect to the class of euclidean models.
 
 
    <br/>
