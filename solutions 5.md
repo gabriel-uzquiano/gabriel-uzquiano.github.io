@@ -47,7 +47,7 @@
       \end{array}
    $$
    
-      
+      The rule of inference we want is a special case of this more general result.
    
       <br/>
    
@@ -117,13 +117,13 @@
       
    2. Not all theorems of $$\textsf{KB4}$$ are theorems of $$\textsf{K5}$$.
 
-      $$\textsf{K5}$$ is sound with respect to the class of euclidean frames, which means that all theorems of $$\textsf{K5}$$ are valid in all euclidean frames. On the other hand, *not* all substitution instances of axiom $$\textsf{B}$$ or $$\textsf{4}$$ are valid in all euclidean frames. Here is a model based on a euclidean frame in which $p \to \Box \Diamond p$ fails:
+      $$\textsf{K5}$$ is sound with respect to the class of euclidean frames, which means that all theorems of $$\textsf{K5}$$ are valid in all euclidean frames. On the other hand, *not* all substitution instances of axiom $$\textsf{B}$$ or $$\textsf{4}$$ are valid in all euclidean frames. Here is a model based on a euclidean frame in which $$p \to \Box \Diamond p$$ fails:
 
       ![solutions 5 1.b](https://p.ipic.vip/gjvw5m.png)
       
       Here is similarly a model based on a euclidean frame in which $$\Box p \to \Box \Box p$$ fails:
       
-      ![5.2.b-trans](https://p.ipic.vip/77csmh.png)
+      ![5.2.b-trans](https://p.ipic.vip/3i2uhj.png)
       
       
 
