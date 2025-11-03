@@ -13,7 +13,7 @@ $$\textsf{KDU}$$ is a deontic logic that extends $$\textsf{KD}$$ with all substi
 
 
 $$
-\textsf{O}(\textsf{O}p \to p) \tag{U}
+\textsf{O}(\textsf{O}p \to p) \tag{\textsf{U}}
 $$
 <br/>Justify the facts given below:<br/>
 
