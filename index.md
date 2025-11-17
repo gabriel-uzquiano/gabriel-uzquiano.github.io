@@ -25,9 +25,11 @@ I am a Professor of Philosophy at the [School of Philosophy](https://dornsife.us
 
 I received my PhD from the Department of [Linguistics](http://web.mit.edu/linguistics/) and [Philosophy](https://philosophy.mit.edu/) at [MIT](http://web.mit.edu/) in 1999. I taught in the [Department of Philosophy](http://www.rochester.edu/College/phl/) at the [University of Rochester](http://www.rochester.edu/) between 1999 and 2005, and I spent one year in the [Department of Philosophy ](http://philosophy.osu.edu/)at [The Ohio State University](http://www.osu.edu/). In Fall 2006, I moved to [Pembroke College](http://www.pmb.ox.ac.uk/) and the [Faculty of Philosophy](http://www.philosophy.ox.ac.uk/) at the [University of Oxford](http://www.ox.ac.uk/), where I taught between 2006 and 2011.
 
-### work in progress
+### recent publications
 
 [A Framework for Location](https://rdcu.be/eQgrH), *The Journal of Philosophical Logic.* Online First.
+
+### work in progress
 
 Iterative Divisibility (Sam Roberts)
 
