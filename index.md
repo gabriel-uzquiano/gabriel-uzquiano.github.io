@@ -31,7 +31,7 @@ I received my PhD from the Department of [Linguistics](http://web.mit.edu/lingui
 
 ### work in progress
 
-Iterative Divisibility (Sam Roberts)
+Iterative Divisibility (with Sam Roberts)
 
 
 ### courses
