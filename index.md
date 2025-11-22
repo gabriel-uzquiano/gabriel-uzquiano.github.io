@@ -27,7 +27,7 @@ I received my PhD from the Department of [Linguistics](http://web.mit.edu/lingui
 
 ### recent publications
 
-[A Framework for Location](https://rdcu.be/eQgrH), *The Journal of Philosophical Logic.* Online First.
+A Framework for Location, *The Journal of Philosophical Logic.* [Online First](https://rdcu.be/eQgrH).
 
 ### work in progress
 
@@ -35,6 +35,10 @@ Iterative Divisibility (with Sam Roberts)
 
 
 ### courses
+
+PHIL 460. Metaphysics
+
+:	Spring 2026
 
 PHIL 452. Modal Logic
 
