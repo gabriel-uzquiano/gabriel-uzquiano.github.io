@@ -38,7 +38,7 @@ Iterative Divisibility (with Sam Roberts)
 
 PHIL 460. Metaphysics
 
-:	Spring 2026
+:	[Spring 2026](https://gabriel-uzquiano.github.io/courses/460)
 
 PHIL 452. Modal Logic
 
