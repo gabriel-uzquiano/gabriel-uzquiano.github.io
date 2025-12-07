@@ -5,6 +5,14 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+  const password = "MHP102";
+  const userInput = prompt("Enter password to view this page:");
+   if (userInput !== password) {
+    document.body.innerHTML = "<h2>access denied</h2>";
+  }
+</script>
+
 ## problems
 
 ### axiomatic derivations&nbsp;
@@ -215,6 +223,18 @@
       
       
       On the other hand, $$\nvdash_{\textsf{KB4}} \Box \varphi \to \varphi$$. For $$\textsf{KB4}$$ is sound with respect to the class of symmetric and transitive frames, and not all symmetric and transitive frames are reflexive. There are, in other words, models based on symmetric and transitive frames in which $$\Box \varphi \to \varphi$$ fails.
+      
+      $$\Box \varphi/\varphi$$ is *not* even a derived rule of inference for $$\textsf{KB}$$.
+      
+      Notice, first, that $$\vdash_{\textsf{KB}} \Box \Diamond \top$$. 
+      $$
+      \begin{array}{llll}
+      1 & \top \to \Box \Diamond \top & \textsf{B} \\
+      2 & \top & PL \\
+      3 & \Box \Diamond\top & \textsf{PL} \ 1, 2 \\
+      \end{array}
+      $$
+      On the other hand, $$\not \vdash_{\textsf{KB}} \Diamond \top$$. For $$\textsf{KB}$$ is sound with respect to the class of symmetric frames, and not all symmetric frames are serial. Consider a frame consisting of a *dead end* $$w$$ from which nothing is accessible. That would be a frame validating $$\Box \Diamond \top$$ without validating $$\Diamond \top$$.
    
    <br/>
    

@@ -5,6 +5,14 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+  const password = "MHP102";
+  const userInput = prompt("Enter password to view this page:");
+   if (userInput !== password) {
+    document.body.innerHTML = "<h2>access denied</h2>";
+  }
+</script>
+
 ## problems
 
 ### modal propositional logic&nbsp;
@@ -38,6 +46,8 @@
    *Hint. You should be able to find a model in which all such formulas are in fact false at some world.*
 
    Set $$W = \{w_1, w_2\}$$ and $$R = \{(w_1, w_2)\}$$. Because $$w_2$$ is a *dead end* in the model, we know that every formula of the form $$\Diamond \varphi$$ is false at $$w_2$$ in *every model based on that frame.* So, $$\Box \Diamond \varphi$$ is never true at $$w_1$$, and we conclude that the formula is *not* valid in the frame just now given.
+
+   
 
 3. Call a relation $$R$$ is *serial* on $$W$$ if, and only if, for all $$u \in W$$, there is some $$v\in W$$ such that $$uRv$$. On the other hand, a relation $$R$$ is *functional* on $$W$$ if, and only if, for all $$w, u, v \in W$$, if $$wRu$$ and $$wRv$$, then $$u = v$$. 
 

@@ -5,6 +5,14 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+  const password = "MHP102";
+  const userInput = prompt("Enter password to view this page:");
+   if (userInput !== password) {
+    document.body.innerHTML = "<h2>access denied</h2>";
+  }
+</script>
+
 ## problems
 
 ### deontic logic
@@ -27,7 +35,7 @@ $$
 
 2. $$\textsf{KDU}$$ is *not* closed under the derived rule of inference $$\textsf{P}\varphi/\varphi$$.
 
-   Since $\textsf{KDU}$ is complete with respect to the class of serial and weakly reflexive frames, and $$\textsf{P}(\textsf{O}p \to p)$$ is valid in all such frames, it suffices to note that $$\textsf{O}p \to p$$ is not valid in some serial and weakly reflexive frames.  Consider, for example, the serial and weakly reflexive model depicted below, and notice that $$\textsf{O}p \to p$$ fails at $$w_1$$.
+   Axioms $$\textsf{U}$$ and $$\textsf{D}$$ make sure that $$\vdash_{\textsf{KDU}} \textsf{P}(\textsf{O}p \to p)$$. But we now argue that $$\nvdash_{\textsf{KDU}} \textsf{O}p \to p$$. Since $\textsf{KDU}$ is complete with respect to the class of serial and weakly reflexive frames, it suffices to note that $$\textsf{O}p \to p$$ is not valid in some serial and weakly reflexive frames.  Consider, for example, the serial and weakly reflexive model depicted below, and notice that $$\textsf{O}p \to p$$ fails at $$w_1$$.
 
    ![solutions-7.1.2](https://p.ipic.vip/p9exhl.png)
 
@@ -35,7 +43,7 @@ $$
 
 3. $$\textsf{KD}$$ is closed under the derived rule of inference $$\textsf{P}\varphi/\varphi$$. 
 
-   This is a corollary of problem 1.2 in [problem set 5](https://gabriel-uzquiano.github.io/solutions%205).<br/>
+   This is a simple corollary of problem 1.2 in [problem set 5](https://gabriel-uzquiano.github.io/solutions%205).<br/>
 
    
 
@@ -80,7 +88,7 @@ $$
 
    This is a corollary of the fact that $$\vdash_{K5} \textsf{O} (\textsf{O}\varphi \to \varphi)$$. For a proof, you may consult the [solution](https://gabriel-uzquiano.github.io/solutions%205) to 4.2 in problem set 5. Alternatively, you can reason semantically and notice that every euclidean frame is weakly reflexive.
 
-   On the other hand, there are serial and weakly reflexive models, which fail to be euclidean. All such models will falsify $$\textsf{P}p \to \textsf{O}\textsf{P}p$$, which is just axiom $$\textsf{5}$$.
+   On the other hand, some serial and weakly reflexive models are not euclidean. All such models will falsify $$\textsf{P}p \to \textsf{O}\textsf{P}p$$, which is just axiom $$\textsf{5}$$. Since $$\textsf{KDU}$$ is, by problem 1 above, sound and complete with respect to serial and reflexive models, we conclude that $$\nvdash_{\textsf{KDU}} \textsf{P}p \to \textsf{O}\textsf{P}p$$.
 
    <br/>
 

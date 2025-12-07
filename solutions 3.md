@@ -5,6 +5,14 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+  const password = "MHP102";
+  const userInput = prompt("Enter password to view this page:");
+   if (userInput !== password) {
+    document.body.innerHTML = "<h2>access denied</h2>";
+  }
+</script>
+
 ## problems
 
 ### propositional logic: axiomatic derivations
@@ -76,7 +84,7 @@
 
    *Hint: Please feel free to make use of the Deduction Theorem and whatever propositions you may find helpful from the notes.*&nbsp;
 
-   By $$\textsf{Prop. 5.1}$$, we know that $$\Gamma, \neg \varphi$$ is inconsistent only if $$\Gamma \vdash \varphi$$. But if $$\Gamma, \varphi$$ is inconsistent, $$\Gamma, \varphi \vdash \bot$$, and, by the Deduction Theorem, $$\Gamma \vdash \varphi \to \bot$$. Given $$\textsf{MP}$$, we have $$\Gamma \vdash \bot$$.
+   By $$\textsf{Prop. 5.1}$$, we know that $$\Gamma, \neg \varphi$$ is inconsistent only if $$\Gamma \vdash \varphi$$. But if $$\Gamma, \varphi$$ is inconsistent, $$\Gamma, \varphi \vdash \bot$$. By the Deduction Theorem,  $$\Gamma \vdash \varphi \to \bot$$. Given $$\textsf{MP}$$, since $$\Gamma \vdash \varphi$$, we have $$\Gamma \vdash \bot$$.
    
    Here is a more explicit argument.
    
