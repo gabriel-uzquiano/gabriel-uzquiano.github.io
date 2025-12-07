@@ -5,6 +5,16 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+  const password = "mypassword";
+  const userInput = prompt("Enter password to view this page:");
+   if (userInput !== password) {
+    document.body.innerHTML = "<h2>Access Denied</h2>";
+  }
+</script>
+
 ## solutions to selected problems
 
 ### relations
@@ -65,7 +75,7 @@
 
       for every $$x, y \in A$$, if $$Rxy$$, then $$Ryx$$.&nbsp;
 
-      Let $$x, y$$ be arbitrary members of $$A$$ and assume that $$Rxy$$. Since $$R$$ is reflexive on $$A$$, $$Rxx$$. But since $$R$$ is euclidean on $$A$$ and we have $$Rxy$$ and  $$Rxx$$, we conclude $$Ryx$$.
+      Let $$x, y$$ be arbitrary members of $$A$$ and assume that $$Rxy$$. Since $$R$$ is reflexive on $$A$$, $$Rxx$$. But since $$R$$ is euclidean on $$A$$ and we have $$Rxy$$ and $$Rxx$$, we conclude $$Ryx$$.
 
    3. $$R$$ is an equivalence relation on a set $$A$$ if, and only if, $$R$$ is reflexive and euclidean on $$A$$.
 
@@ -88,8 +98,6 @@
       True. Suppose $$R$$ is reflexive, symmetric, and connected on $$A$$. We want to show that $$R$$ is euclidean on $$A$$. That is, we argue that 
 
       for every $$x, y, z \in A$$, if $$Rxy$$ and $$Rxz$$, then $$Ryz$$.&nbsp;
-
-      
 
       Let $$x, y, z$$ be arbitrary members of $$A$$. Assume that $$Rxy$$ and $$Rxz$$. Since $$R$$ is connected on $$A$$, $$Ryz$$ or $$y = z$$ or $$Rzy$$. 
 
