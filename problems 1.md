@@ -5,6 +5,15 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+  const password = "MHP102";
+  const userInput = prompt("Enter password to view this page:");
+
+  if (userInput !== password) {
+    document.body.innerHTML = "<h2>Access Denied</h2>";
+  }
+</script>
+
 ## problems
 
 ### relations
