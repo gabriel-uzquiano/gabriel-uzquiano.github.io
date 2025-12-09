@@ -5,7 +5,13 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
+<script>
+  const password = "MHP102";
+  const userInput = prompt("Enter password to view this page:");
+   if (userInput !== password) {
+    document.body.innerHTML = "<h2>access denied</h2>";
+  }
+</script>
 
 ### Guidelines for Final Project
 
@@ -93,7 +99,7 @@ What follows is a list of sample topics that would be appropriate for a final pr
    $$
    \Sigma \vdash \textsf{O}_1\varphi  \leftrightarrow \textsf{O}_2 \varphi
    $$
-    
+   
    
    *or* there are incomparable pure modalities $$\textsf{O}_1$$ and $$\textsf{O}_2$$ such that
 
