@@ -8,19 +8,9 @@
 
 
 
-<script>
-  const password = "MHP102";
-  const userInput = prompt("Enter password to view this page:");
-   if (userInput !== password) {
-    document.body.innerHTML = "<h2>access denied</h2>";
-  }
-</script>
-
-
-
 ## problems
 
-### time travel
+### 1. time travel
 
 Ted Chiang describes a device in [What's Expected of Us](https://uosc.primo.exlibrisgroup.com/permalink/01USC_INST/273cgt/cdi_proquest_journals_204586425):
 
@@ -32,16 +22,16 @@ A.
 
 Determine whether each of the following continuations may be interpreted as a consistent time travel scenario. Please make sure to explain why. 
 
-1. You resolve to beat the Predictor by pressing the button even before you see the flash. When you attempt to do this, the flash immediately appears, and no matter how fast you move, you only manage to press the button once a second has elapsed.
-2. You resolve to beat the Predictor by pressing the button before you see the flash. When you attempt to do this, the flash immediately appears, but you manage to press the button even before the second has elapsed.
-3. You resolve to beat the Predictor by *not* pressing the button after the flash appears. You wait for the flash for a while, but it never appears. So, you *pretend* you are about to press the button by quickly moving toward it. The flash appears, but the inertia of the moment leads to you to accidentally press the button just one second after the flash.
-4. You resolve to beat the Predictor by *not* pressing the button after the flash appears. You wait for the flash for a while, but it never appears. So, you briefly resolve to press the button with a view to changing your mind immediately afterwards. The flash appears but you almost automatically change your mind and refrain from pushing the button. 
+1. You resolve to beat the Predictor by pressing the button even before you see the flash. When you attempt to do this, the flash immediately appears, and no matter how fast you move, you only manage to press the button once a second has elapsed.<br/>
+2. You resolve to beat the Predictor by pressing the button before you see the flash. When you attempt to do this, the flash immediately appears, but you manage to press the button even before the second has elapsed.<br/>
+3. You resolve to beat the Predictor by *not* pressing the button after the flash appears. You wait for the flash for a while, but it never appears. So, you *pretend* you are about to press the button by quickly moving toward it. The flash appears, but the inertia of the moment leads to you to accidentally press the button just one second after the flash.<br/>
+4. You resolve to beat the Predictor by *not* pressing the button after the flash appears. You wait for the flash for a while, but it never appears. So, you briefly resolve to press the button with a view to changing your mind immediately afterwards. The flash appears but you almost automatically change your mind and refrain from pushing the button. <br/>
 
 B. 
 
 How can the Growing Block Theorist make sense of the *consistent* time travel scenarios described above?
 
-### time and modality
+### 2. time and modality
 
 The A-Theory of Time answers two questions in the affirmative:
 
@@ -53,18 +43,28 @@ Consider now the distinction between *being actual* and *being merely possible*.
 1. Are there *objective* differences between being actual and being merely possible?
 2. Are actual events and objects *more real* than merely possible objects&nbsp;
 
+A.
+
 Please outline modal counterparts of the A- and B-Theory of time.
 
-### presentism and time travel
+B.
+
+Assess the plausibility of each view you have outlined.<br/>
+
+### 3. presentism and time travel
+
+A.
 
 How would a presentist recount Ted Chiang's [What's Expected of Us](https://uosc.primo.exlibrisgroup.com/permalink/01USC_INST/273cgt/cdi_proquest_journals_204586425)? Consider some potential difficulties for a presentist reconstruction of Chiang's scenario:
 
-1. When you press the button of the device, there is no such event as a light flash one second before, much less a signal sent by a circuit with negative time delay.
+1. When you press the button of the device, there is no such event as a light flash one second before, much less a signal sent by a circuit with negative time delay.<br/>
 2. How could there be genuine causation between a present event, which triggers the emission of a signal by the circuit with negative time delay, and a past event such as the light flash? That is, how can an event cause something that does not even exist?
+
+B.
 
 Is the Growing Block Theorist better off than the presentist? Please justify your answer.
 
-### thank goodness it's over
+### 4. thank goodness it's over
 
 A. N. Prior offered an argument against the B-Theory:
 
@@ -72,7 +72,15 @@ A. N. Prior offered an argument against the B-Theory:
 
 Consider the occurrence of a very painful event at a given time. Before the event, the subject experiences different degrees of anxiety as the event comes closer. The event itself is very painful, and after the event, the subject experiences different degrees of relief as the event recedes further into the past.
 
-1. Explain how the A-theorist would account for the difference in attitudes towards the event across time. 
-2. Explain how the A-theorist would account for the difference in attitudes towards the event across time. 
-3. Reconstruct Prior's argument in light of your answers to the prior questions.
-4. Assess Prior's argument. Does it provide a knock-down reason to prefer the A-theory over the B-theory of time?
+A.
+
+Explain how the A-theorist would account for the difference in attitudes towards the event across time. 
+
+B.
+
+Explain how the A-theorist would account for the difference in attitudes towards the event across time. 
+
+C,
+
+Reconstruct and assess Prior's argument for the A-Theory in light of your answers to the prior questions.
+
