@@ -18,7 +18,7 @@ Ted Chiang describes a device in [What's Expected of Us](https://uosc.primo.exli
 >
 > The heart of each Predictor is a circuit with a negative time delay — it sends a signal back in time.
 
-A.
+**A.**
 
 Determine whether each of the following continuations may be interpreted as a **consistent time travel scenario**. Please make sure to explain why. 
 
@@ -36,7 +36,7 @@ Determine whether each of the following continuations may be interpreted as a **
 
 4. You resolve to beat the Predictor by *not* pressing the button after the flash appears. You wait for the flash for a while, but it never appears. So, you briefly resolve to press the button with a view to changing your mind immediately afterwards. The flash appears but you almost automatically change your mind and refrain from pushing the button. <br/>
 
-B. 
+**B.** 
 
 How can the Growing Block Theorist make sense of the *consistent* time travel scenarios described above?
 
@@ -58,17 +58,17 @@ Consider now the distinction between **being actual** and **being merely possibl
 
 2. Are actual events and objects **more real** than merely possible objects&nbsp;
 
-A.
+**A.**
 
 Please outline **modal counterparts** of the A- and B-Theory of time.
 
-B.
+**B.**
 
 Assess the plausibility of each view you have outlined.<br/>
 
 ### 3. presentism and time travel
 
-A.
+**A.**
 
 How would a presentist recount Ted Chiang's [What's Expected of Us](https://uosc.primo.exlibrisgroup.com/permalink/01USC_INST/273cgt/cdi_proquest_journals_204586425)? Consider some potential difficulties for a presentist reconstruction of Chiang's scenario:
 
@@ -78,9 +78,9 @@ How would a presentist recount Ted Chiang's [What's Expected of Us](https://uosc
 
 2. How could there be genuine causation between a present event, which triggers the emission of a signal by the circuit with negative time delay, and a past event such as the light flash? That is, how can an event cause something that does not even exist?
 
-B.
+**B.**
 
-Is the Growing Block Theorist better off than the presentist? Please justify your answer.
+To what extent is the Growing Block Theorist better off than the presentist, if at all? Please justify your answer.
 
 ### 4. thank goodness it's over
 
@@ -90,15 +90,15 @@ A. N. Prior offered an argument against the B-Theory:
 
 Consider the occurrence of a very painful event at a given time. Before the event, the subject experiences different degrees of anxiety as the event comes closer. The event itself is very painful, and after the event, the subject experiences different degrees of relief as the event recedes further into the past.
 
-A.
+**A.**
 
 How would the A-theorist account for the difference in attitude across time. 
 
-B.
+**B.**
 
 How would the B-theorist account for the difference in attitudes across time. 
 
-C,
+**C.**
 
 Reconstruct and assess Prior's argument for the A-Theory in light of your answers.
 
