@@ -103,7 +103,7 @@ How could Lumpl and Goliath be two different material objects if they occupy the
 
 ## 4. time travel revisited
 
-Nikk Effingham and Jon Robson have imagined a time travel scenario in which a brick is taken back in time over and over again making sure that the time travelers are strategically arranged into the form of a wall as in the figure below. You may think of brick $n$ as the time traveler, which originates from $n$ days into the future.
+Nikk Effingham and Jon Robson have imagined a time travel scenario in which a brick is taken back in time over and over again making sure that the time travelers are strategically arranged into the form of a wall as in the figure below. You may think of brick $$n$$ as the time traveler, which originates from $$n$$ days into the future.
 
 ![image-20260207095857621](https://p.ipic.vip/gclfsv.png)
 
