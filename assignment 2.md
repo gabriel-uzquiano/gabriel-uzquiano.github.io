@@ -14,25 +14,25 @@
 
 Consider a case of fission:
 
-> An amoeba A divides at noon into two genetically and morphological identical amoebas Am and Av, which are placed in adjacent petri dishes, each with continuous with causal origins form A.
+> An amoeba A divides at noon into two qualitatively identical amoebas Am and Ab, which are placed in adjacent petri dishes, each with continuous with causal origins form A.
 
 **A**
 
 Determine whether each of the following continuations are appropriate descriptions of the fission scenario by the lights of perdurantism and endurantism respectively.
 
-1. Both Am at 1pm and Av at 1pm are identical to A at 11:45am. What used to be one amoeba A at 11:45am is at 1pm two different amoebas Am and Av.
+1. Both Am at 1pm and Ab at 1pm are identical to A at 11:45am. What used to be one amoeba A at 11:45am is at 1pm two different amoebas Am and Ab.
 
    
 
-2. A at 11:45pm is identical to Am at 1pm but identical to Av at 1pm. What used to be one amoeba A at 11:45am continues to be an amoeba at 1pm, even if a numerically different genetically and morphologically identical amoeba came into existence at noon.
+2. A at 11:45pm is identical to Am at 1pm but identical to Ab at 1pm. What used to be one amoeba A at 11:45am continues to be an amoeba at 1pm, even if a numerically different genetically and morphologically identical amoeba came into existence at noon.
 
    
 
-3. A at 11:45pm is identical to none of Am or Av at 1pm. In fact, A ceased to exist as soon as its division took place at noon.
+3. A at 11:45pm is identical to none of Am or Ab at 1pm. In fact, A ceased to exist as soon as its division took place at noon.
 
    
 
-4. A is a part of each Am or Av. 
+4. A is a part of each Am or Ab. 
 
 **B**
 
