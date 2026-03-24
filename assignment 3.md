@@ -48,9 +48,15 @@ What matters in survival, according to Parfit, is not numerical identity but rat
 
    - Would **you** pay the premium?
 
+     
+
 2. You are given the choice between the *simple teletransporter* case and the *branch-line teletransporter* case. That is, you can decide whether to have the scanner destroy your body and brain and have your replica in Mars continue to live a rich and fruitful life or to have the scanner save your body and brain in which case you will live on for just a few weeks here on Earth. 
    - What is the **rational** choice to make according to Parfit?
+   
    - Would **you** make that choice?
+   
+     
+   
 3. Not only is there no risk of malfunction, but you know you can maximize the destinations to which the signal is sent **if you bribe the technician.** No one else will be negatively impacted by your action if you do. Once you bribe the technician, she will send the signal to five different planets resulting in the production of five replicas, all of whom will be psychologically continuous and strongly connected with you.
 
    - Would it be **rational** for you to bribe the technician according to Parfit?
