@@ -49,9 +49,9 @@ What matters in survival, according to Parfit, is not numerical identity but rat
    - Would **you** pay the premium?
 
 2. You are given the choice between the *simple teletransporter* case and the *branch-line teletransporter* case. That is, you can decide whether to have the scanner destroy your body and brain and have your replica in Mars continue to live a rich and fruitful life or to have the scanner save your body and brain in which case you will live on for just a few weeks here on Earth. 
-   - What is the most **rational** choice to make according to Parfit?
+   - What is the **rational** choice to make according to Parfit?
    - Would **you** make that choice?
-3. Not only is there no risk of malfunction, but you know you can maximize the destinations to which the signal is sent **if you bribe the technician.** No one else will be negatively impacted by your action if you decide to bribe the technician. Once you do, the signal is sent to at least five different planets resulting in the production of five replicas, who will be psychologically continuous and strongly connected with you.
+3. Not only is there no risk of malfunction, but you know you can maximize the destinations to which the signal is sent **if you bribe the technician.** No one else will be negatively impacted by your action if you do. Once you bribe the technician, she will send the signal to five different planets resulting in the production of five replicas, all of whom will be psychologically continuous and strongly connected with you.
 
    - Would it be **rational** for you to bribe the technician according to Parfit?
 
@@ -59,20 +59,7 @@ What matters in survival, according to Parfit, is not numerical identity but rat
 
 <br/>
 
-### 2. the self and the future
-
-**A**
-
-Explain how to use Bernard Williams' strategy in "The Self and the Future" to suggest that different descriptions of the scenario Greg Egan presents in "Learning to Be Me". may in fact elicit support for different accounts of personal identity.
-
-1. Provide a description of the scenario under which we are tempted to judge that the person after the switch is one and the same as the person before the switch. The "jewel" has learned to be *me*.
-2. Provide a description of the scenario under which we are tempted to judge that a person will not survive the switch. That is one in which fear is the appropriate response to the prospect of the switch.
-
-**B**
-
-Explain how, if at all, one could deploy Parfit's view that identity is not what matters in order to provide some relief for the narrator of the story.
-
-### 3. survival and identity
+### 2. survival and identity
 
 Identity and survival may come apart in cases of fission and fusion.
 
@@ -81,8 +68,8 @@ Identity and survival may come apart in cases of fission and fusion.
 Consider David Lewis' account of **fission**. Even before division, we had two persons, Alpha and Beta, who share all of their stages up to the time of division. Assess the following objections:
 
 1. Before fission, there appears to be only *one* person in the room. When I promised to donate 1M if I win the lottery, I thought I made a promise to one person. Yet, according to Lewis, there are at least two as opposed to one person. 
-   - Did I make two promises then? 
-   - How am I supposed to discharge my promise if I win the lottery after fission? Should I donate 1M? 2M?
+   - How many promises did I make? 
+   - How am I supposed to discharge my promise(s) if I win the lottery after fission? 
 2. How can I even know I made only two promises? On Lewis's view, there may well be many more than two persons in the room. 
    - Is there some way to constrain the number of persons in the room?  Must it be a power of 2? Finite? Both? None of the above?
 
