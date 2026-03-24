@@ -75,7 +75,11 @@ Consider David Lewis' account of **fission**. Even before division, we had two p
 
 1. Before fission, there appears to be only *one* person in the room. When I promised to donate 1M if I win the lottery, I thought I made a promise to one person. Yet, according to Lewis, there are at least two as opposed to one person. 
    - How many promises did I make? 
+   
    - How am I supposed to discharge my promise(s) if I win the lottery after fission? 
+   
+     
+   
 2. How can I even know I made only two promises? On Lewis's view, there may well be many more than two persons in the room. 
    - Is there some way to constrain the number of persons in the room?  Must it be a power of 2? Finite? Both? None of the above?
 
