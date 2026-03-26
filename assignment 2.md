@@ -24,7 +24,7 @@ Determine whether each of the following continuations are appropriate descriptio
 
    
 
-2. A at 11:45pm is identical to Am at 1pm but identical to Ab at 1pm. What used to be one amoeba A at 11:45am continues to be an amoeba at 1pm, even if a numerically different genetically and morphologically identical amoeba came into existence at noon.
+2. A at 11:45pm is identical to Am at 1pm but **not** identical to Ab at 1pm. What used to be one amoeba A at 11:45am continues to be an amoeba at 1pm, even if a numerically different genetically and morphologically identical amoeba came into existence at noon.
 
    
 
