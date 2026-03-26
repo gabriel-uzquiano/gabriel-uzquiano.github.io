@@ -81,11 +81,11 @@ Are Lumpl and Goliath identical? Consider the following argument:
 
 Assess the argument from the point of view of perdurantism?
 
+**B**
+
 Consider the following modification of the case:
 
 > A lump of clay, Lumpl, is created at exactly the same time as a statue, Goliath, is formed from it. They occupy the same space, are made of the same matter, and are eventually simultaneously annihilated at noon.
-
-**B**
 
 Consider the following argument:
 
