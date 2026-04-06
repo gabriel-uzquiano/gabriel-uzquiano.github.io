@@ -14,7 +14,7 @@
 
 Derek Parfit makes a distinction between two reductionist accounts of personal identity:
 
-**The Physical Criterion**. What is necessary and sufficient for the continued existence of a person is the *non-branching* continuity of *enough* of their brain and body without branching.
+**The Physical Criterion**. What is necessary and sufficient for the continued existence of a person is the *non-branching* continuity of *enough* of their brain and body.
 
 **The Psychological Criterion**. What is necessary and sufficient for the continued existence of a person is the *non-branching* continuity of *enough* of their psychology with an appropriate causal history.
 
@@ -85,15 +85,15 @@ Consider David Lewis' account of **fission**. Even before division, we had two p
 
 **B**
 
-Consider a case of **fusion**. Alpha and Beta are two persons with two distinct bodies and and different psychological states. Though some complicated procedure, they are neurologically merged into a single person, Gamma, who is psychologically connected and strongly continuous with both Alpha and Beta. Gamma has first-person access to many of Alpha's and Beta's memories, and a personality that is a combination of both.
+Consider a case of **fusion**. Alpha and Beta are two persons with two distinct bodies and and different psychological states. Though some complicated procedure, they are neurologically merged into someone, whose person stages are psychologically connected and strongly continuous with person stages of both Alpha and Beta. The post-fusion person stages have first-person access to many of Alpha's and Beta's memories, and a personality that is a combination of both.
 
-1. Alpha and Beta appear to be the only persons in the room before the fusion takes place. If Gamma is in the room, what exactly is its spatial location before fusion?
+1. Alpha and Beta appear to be the only persons in the room before the fusion takes place. Consider a person-stage emerging from the operation. How many persons does that stage belong to? Where were they prior to the operation?
 
 2. Is Alpha identical to Beta?
 
-3. Is Gamma identical to Alpha or Beta?
+3. Is the post-fusion person stage part of Alpha or Beta?
 
-4. Suppose I promised Alpha and Beta 1M each if I win the lottery after fusion. Am I simply off the hook if I win the lottery after fusion? If not, how much money should I give Gamma?
+4. Suppose I promised Alpha and Beta 1M each if I win the lottery after fusion. Am I simply off the hook if I win the lottery after fusion? If not, how much money should I give a post-fusion person stage in order to fulfill my promise?
 
    
 
