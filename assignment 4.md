@@ -101,8 +101,16 @@ Consider the Frankfurt-style cases below and assess the extent to which they suc
 3. Nora is a recovering alcoholic attending a party. Unknown to her, her host has resolved to slip alcohol into her water if he finds a sign she may resist a drink. As it happens, Nora decides entirely on her own to have a drink and does not resist. The host does nothing. 
 
    - Could Nora have done otherwise?
+
+     
+
    - Is Nora responsible for the lapse of recovery?
+
+     
+
    - Does the case refute PAP?
+
+     
 
    
 
