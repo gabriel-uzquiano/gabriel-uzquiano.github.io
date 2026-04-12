@@ -38,7 +38,7 @@ The Consequence Argument claims that if determinism is true, no one ever has con
 
 **A**
 
-Assess the following inferences and say whether they are valid according to the $\alpha $ Rule, the $\beta $ Rule, the Necessary Conditional Rule, or none of the above. For each inference you find invalid, explain why.
+Assess the following inferences and say whether they are valid according to the $$\alpha$$-Rule, the $$\beta$$-Rule, the Necessary Conditional Rule, or none of the above. For each inference you find invalid, explain why.
 
 1. It is a necessary truth that if the laws of nature and the state of the world in the Jurassic period obtained, then the dinosaurs went eventually extinct. The laws of nature remained beyond control. The state of the world in the Jurassic period remained beyond control. Therefore, the extinction of the dinosaurs remained beyond control as well.
 
