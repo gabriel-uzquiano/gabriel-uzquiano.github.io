@@ -1,21 +1,30 @@
-title: "gabriel uzquiano"
+title: "Course Materials"
+author:
+  name: "Gabriel Uzquiano"
+
 description: "Online portal with links to course materials."
-url: "https://gabriel-uzquiano.github.io" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gabriel-uzquiano.github.io"
+baseurl: ""
 lang: "en-US"
 timezone: "America/Los_Angeles"
 
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 
 kramdown:
+  input: GFM
   math_engine: mathjax
   math_engine_opts:
     preview: false
-   
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
