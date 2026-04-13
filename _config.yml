@@ -1,12 +1,9 @@
-title: "Course Materials"
-author:
-  name: "Gabriel Uzquiano"
+title: "course materials"
+author: "gabriel uzquiano"
 
-description: "Online portal with links to course materials."
+description: "Online portal and course materials."
 url: "https://gabriel-uzquiano.github.io"
 baseurl: ""
-lang: "en-US"
-timezone: "America/Los_Angeles"
 
 theme: minima
 
@@ -18,13 +15,7 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  input: GFM
   math_engine: mathjax
   math_engine_opts:
     preview: false
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
