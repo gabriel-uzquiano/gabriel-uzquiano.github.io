@@ -1,4 +1,4 @@
-title: "Course Materials and Resources"
+title: "gabriel uzquiano"
 description: "Online portal with links to course materials."
 url: "https://gabriel-uzquiano.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -18,7 +18,4 @@ kramdown:
   math_engine: mathjax
   math_engine_opts:
     preview: false
-
-author:
-  name: "Gabriel Uzquiano"
-    
+   
