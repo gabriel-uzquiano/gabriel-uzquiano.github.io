@@ -68,7 +68,7 @@ Lewis argues that his reformulation of the Consequence Argument equivocates betw
 
 3. Both the weak and strong interpretation of ability are perfectly coherent, and van Inwagen and Lewis are simply talking past each other since they each focus on a different sense of ability. So, the debate over free will is simply a verbal dispute.
 
-### 3. Responsibility without Alternatives
+### 3. responsibility without alternatives
 
 Harry Franfurt argues that the Principle of Alternative Possibilities is false:
 
