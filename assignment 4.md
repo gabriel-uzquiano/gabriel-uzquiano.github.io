@@ -10,7 +10,7 @@
 
 ## problems
 
-### 1. what we take ourselves to be able to do
+### 1. what we are able to do
 
 We have considered what it means to claim that an agent *can* do something other than what they do. David Lewis argues that ability attributions are context-sensitive: whether an agent *can* do something depends on which facts are being held fixed in a given context.
 
@@ -32,13 +32,13 @@ Consider the cases described below and explain what the contextualist account of
 
 4. In a deterministic world, Anna deliberates carefully between two offers of employment and chooses one. The state of the world one billion years ago, together with the laws of nature, entailed that she would make exactly this choice. Could she have chosen the other position?
 
-### 2. The Transfer of Powerlessness
+### 2. the transfer of powerlessness
 
-The Consequence Argument claims that if determinism is true, no one ever has control over anything they do. The argument depends on two rules of inference governing the concept of being *beyond control*.
+The Consequence Argument claims that if determinism is true, no one ever has control over anything they do. The initial formulation of the argument by Peter van Inwagen deploys two rules of inference governing the operator $N$, where $N \varphi$ is read as: $\varphi$, *and no one has, or has ever had any choice over* $\varphi$. A later formulation deployed the Necessary Conditional Rule.
 
 **A**
 
-Assess the following inferences and say whether they are valid according to the $$\alpha$$-Rule, the $$\beta$$-Rule, the Necessary Conditional Rule, or none of the above. For each inference you find invalid, explain why.
+Assess the following inferences and say whether they are valid according to the $$\alpha$$-Rule and the $$\beta$$-Rule, the Necessary Conditional Rule, or none of the above. For each inference you find invalid, explain why.
 
 1. It is a necessary truth that if the laws of nature and the state of the world in the Jurassic period obtained, then the dinosaurs went eventually extinct. The laws of nature remained beyond control. The state of the world in the Jurassic period remained beyond control. Therefore, the extinction of the dinosaurs remained beyond control as well.
 
@@ -56,7 +56,7 @@ Assess the following inferences and say whether they are valid according to the 
 
 **B**
 
-Lewis argues that the Consequence Argument equivocates between a strong and a weak interpretation of 'can do otherwise', and that compatibilism requires only the weak interpretation. Consider the following incompatibilist responses to Lewis and assess each one:
+Lewis argues that his reformulation of the Consequence Argument equivocates between a strong and a weak interpretation of 'could have been rendered false', and that compatibilism requires only the weak interpretation. Consider the following incompatibilist responses to Lewis and assess each one:
 
 1. The only genuine interpretation of ability is the strong one: the ability to produce a different outcome in *this* world given *this* history and the *actual* laws of nature. What would Lewis reply?
 
