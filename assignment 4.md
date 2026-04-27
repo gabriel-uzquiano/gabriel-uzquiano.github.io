@@ -34,7 +34,7 @@ Consider the cases described below and explain what the contextualist account of
 
 ### 2. the transfer of powerlessness
 
-The Consequence Argument claims that if determinism is true, no one ever has control over anything they do. The initial formulation of the argument by Peter van Inwagen deploys two rules of inference governing the operator $N$, where $N \varphi$ is read as: $\varphi$, *and no one has, or has ever had any choice over* $\varphi$. A later formulation deployed the Necessary Conditional Rule.
+The Consequence Argument claims that if determinism is true, no one ever has control over anything they do. The initial formulation of the argument by Peter van Inwagen deploys two rules of inference governing the operator $$N$$, where $$N \varphi$$ is read as: $$\varphi$$, *and no one has, or has ever had any choice over* $$\varphi$$. A later formulation deployed the Necessary Conditional Rule.
 
 **A**
 
