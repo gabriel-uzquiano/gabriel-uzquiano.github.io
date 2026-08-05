@@ -1,0 +1,28 @@
+---
+# This file overrides the minima theme's stylesheet.
+# The @import pulls in the theme exactly as before; rules after it are
+# site-specific additions.
+---
+
+@import "minima";
+
+/**
+ * Schedule tables on narrow screens.
+ *
+ * On phones the three-column course schedules get cramped, so let the table
+ * scroll sideways inside the page instead of squeezing every column. Desktop
+ * rendering is untouched.
+ */
+@media screen and (max-width: 800px) {
+  .post-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  // Keep dates on a single line so "Mon 8/24" never breaks in two.
+  .post-content table th:first-child,
+  .post-content table td:first-child {
+    white-space: nowrap;
+  }
+}
