@@ -7,6 +7,43 @@
 @import "minima";
 
 /**
+ * Current week in a course schedule.
+ *
+ * The rows are tinted, and the first row of the week carries a small marker,
+ * so the week is identifiable without relying on colour alone.
+ */
+.post-content table tr.this-week {
+  background-color: rgba(42, 122, 226, 0.08);
+}
+
+.post-content table tr.this-week td:first-child {
+  box-shadow: inset 3px 0 0 #2a7ae2;
+}
+
+.post-content table tr.this-week-start td:first-child::after {
+  content: "this week";
+  display: block;
+  margin-top: 2px;
+  color: #2a7ae2;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+// Visible to screen readers, hidden visually: the marker above already says it.
+.this-week-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/**
  * Schedule tables on narrow screens.
  *
  * On phones the three-column course schedules get cramped, so let the table
