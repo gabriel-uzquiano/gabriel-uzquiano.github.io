@@ -9,13 +9,16 @@ I received my PhD from the Department of [Linguistics](http://web.mit.edu/lingui
 
 ### courses
 
+PHIL 220g. Introduction to Logic
+
+:	[Fall 2026](https://gabriel-uzquiano.github.io/courses/220)
+
+
 PHIL 452. Modal Logic
 
 :	[Fall 2026](https://gabriel-uzquiano.github.io/courses/452)
 
-PHIL 220g. Introduction to Logic
 
-:	[Fall 2026](https://gabriel-uzquiano.github.io/courses/220)
 
 ### materials
 
