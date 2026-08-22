@@ -28,11 +28,19 @@ Online Logic Portal
 
 ### recent publications
 
-A Framework for Location, *The Journal of Philosophical Logic.* [Online First](https://rdcu.be/eQgrH).
+Publications since 2024. Earlier work is listed on my [Philpapers profile](https://philpeople.org/profiles/gabriel-uzquiano).
+
+2026\. Mereological Supervenience, *Analysis*. [Online First](https://academic.oup.com/analysis/article/doi/10.1093/analys/anag069/8768527).
+
+2025\. A Framework for Location, *The Journal of Philosophical Logic.* [Online First](https://rdcu.be/eQgrH).
+
+2024\. *The Mereology of Classes*. Cambridge University Press. [Online Access from USC Libraries](https://uosc.primo.exlibrisgroup.com/permalink/01USC_INST/1ds3rtj/alma991044248752903731).
 
 ### work in progress
 
 Patterns of Truth: Location and Modality
+
+
 
 ### links
 
