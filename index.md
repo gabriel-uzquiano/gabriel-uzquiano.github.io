@@ -26,9 +26,9 @@ Online Logic Portal
 
 :	[USC Logic Web](https://dornsife.usc.edu/usclogicweb/)
 
-### recent publications
+### recent publications 
 
-Publications since 2024. Earlier work is listed on my [Philpapers profile](https://philpeople.org/profiles/gabriel-uzquiano).
+Earlier work is listed on my [Philpapers profile](https://philpeople.org/profiles/gabriel-uzquiano).
 
 2026\. Mereological Supervenience, *Analysis*. [Online First](https://academic.oup.com/analysis/article/doi/10.1093/analys/anag069/8768527).
 
